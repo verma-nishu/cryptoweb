@@ -1,0 +1,451 @@
+@import "~bootstrap/scss/bootstrap";
+
+.custom-container {
+    width: 100%;
+    margin: auto;
+    padding: 0rem 4rem;
+    max-width: 1600px;
+  
+
+}
+.home-page{
+    background: #040517;
+}
+
+@media only screen and (max-width:768px) {
+
+    .custom-container {
+        padding: 0px 0px 0px 10px !important;
+    }
+}
+@media only screen and (max-width:958px) and (min-width:640px) {
+    .section1{
+        flex-direction: column-reverse !important;
+    }
+}
+
+.section1 {
+    justify-content: space-between;
+  
+    @media only screen and (max-width: 768px) and (min-width: 481px) {
+        .payment-gateway {
+            padding-left: 4rem;
+            padding-right: 4rem;
+            h1 {
+                font-size: 40px
+            }
+            .accept{
+                font-size: 15px !important;
+            }
+            .get-paid{
+                font-size: 15px !important;
+            }
+        }
+    }
+    @media only screen and (max-width: 992px) and (min-width: 768px) {
+h1{
+    font-size: 40px !important;
+}
+
+    }
+    @media only screen and (max-width: 958px) and (min-width: 768px) {
+        .section1-btn{
+            justify-content: space-between !important;
+        }}
+    h1 {
+        font-size: 64px;
+        text-align: left;
+        color: white;
+
+    }
+
+    @media only screen and (max-width:480px) {
+
+        h1 {
+            font-size: 40px
+        }
+        .accept{
+            font-size: 15px !important;
+        }
+        .get-paid{
+            font-size: 15px !important;
+        }
+
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .accept {
+        color: white;
+        border-top: 1px solid #161627;
+        padding: 1.7rem 0rem;
+
+        margin-right: 20px;
+        font-size: 17px;
+        opacity: 0.8;
+    }
+
+    .get-paid {
+        color: white;
+        padding: 1.7rem 0rem;
+        margin-left: 20px;
+        border-top: 1px solid #161627;
+
+        font-size: 17px;
+        opacity: 0.8;
+    }
+
+}
+
+
+
+
+
+.cryptoprocessing-section {
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+
+    h1 {
+        font-size: 64px;
+        text-align: left;
+        color: white;
+    }
+
+}
+
+.coins-paid {
+    padding: 0rem 7rem;
+}
+
+.accept-payments {
+    display: flex;
+    text-align: left;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
+}
+
+.section1-btn {
+    display: flex;
+    margin-bottom: 6rem;
+
+    .consultation {
+        margin-right: 30px;
+        border-radius: 10px;
+        border: 0px;
+        background-color: #144bff;
+        color: white;
+        padding: 1rem 1.5rem !important;
+        font-size: 14px !important;
+    }
+
+    .goto {
+
+        border-radius: 10px;
+        border: 0px;
+        background-color: #161627;
+        color: white;
+        padding: 1rem 1.5rem !important;
+        font-size: 14px !important;
+    }
+}
+
+.section1-bottom-logo {
+    display: flex;
+    padding-bottom: 2rem;
+
+    .award {
+        margin-right: 4rem;
+        margin-top: 10px;
+
+        h4 {
+            color: white;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+    }
+
+    .A-logo img {
+        height: auto;
+        width: 50px;
+    }
+
+}
+
+// .accept {
+//     color: white;
+//     border-top: 1px solid #161627;
+//     padding: 1.7rem 0rem;
+
+//     margin-right: 20px;
+//     font-size: 16px;
+//     opacity: 0.8;
+// }
+
+// .get-paid {
+//     color: white;
+//     padding: 1.7rem 0rem;
+//     margin-left: 20px;
+//     border-top: 1px solid #161627;
+
+//     font-size: 16px;
+//     opacity: 0.8;
+// }
+
+.CryptoProcessing {
+    font-family: 'Sk-Modernist', Arial, sans-serif;
+    margin-top: 6rem;
+    font-size: 60px;
+    padding: 1rem 6rem 0rem 6rem;
+    font-weight: 800;
+    color: white;
+    text-align: left;
+}
+
+.first-img-position {
+    position: absolute;
+}
+
+.second-img-position {
+    position: relative;
+}
+
+.third-img-position {
+    position: absolute;
+    bottom: 24px;
+}
+
+.first-image {
+    width: 100% !important;
+}
+
+.second-image {
+    width: 100% !important;
+}
+
+.third-image {
+    width: 100% !important;
+}
+
+/* .........Section2...... */
+.should-integrate {
+    background-color: #161627;
+
+    .integrate {
+        padding: 0rem 7rem;
+
+        h1 {
+            line-height: 0.9;
+            color: white;
+            font-size: 64px;
+            padding: 0px 0px 5rem 0px;
+
+            span {
+                opacity: 0.7;
+            }
+        }
+    }
+
+    .margin-save {
+        margin: 0rem 6rem;
+        padding-bottom: 5rem;
+
+        .save-up {
+            h3 {
+                color: white;
+                line-height: 1;
+            }
+        }
+    }
+
+}
+
+/*........Section3.......*/
+.section3 {
+    background-color: #161627;
+    padding: 1.5rem 0rem 4rem;
+.table-scroll{
+    overflow-x: scroll;
+}
+    .table-section {
+        table {
+            margin: auto;
+            background: black;
+
+            .table-head1 {
+                padding-left: 20px;
+            }
+
+            th {
+                width: 33%;
+                font-size: 18px;
+            }
+
+            th,
+            tr,
+            td {
+
+                border: 1px solid #161627;
+                padding: 1rem 6rem;
+                color: white;
+                text-align: left;
+                font-size: 18px;
+            }
+
+            td {
+                font-weight: 700;
+            }
+        }
+    }
+
+}
+
+/*.....Section4............*/
+.acceptance-section4 {
+    background-color: #040517;
+
+    .acceptance {
+        padding: 0rem 7rem;
+
+        h1 {
+            line-height: 0.9;
+            color: white;
+            font-size: 64px;
+
+            span {
+                opacity: 0.7;
+            }
+        }
+    }
+.leave-your{
+    margin: 0rem 3rem;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+    .free-marketing{
+        width: 62%;
+    }
+    .contact-sales{
+        width: 38%;
+        text-align: right;
+        padding-top: 3.5rem;
+        .Contact-btn {
+            margin-right: 30px;
+            border-radius: 10px;
+            border: 0px;
+            background-color: #144bff;
+            color: white;
+            padding: 1rem 3.5rem !important; 
+            font-size: 14px !important;
+        }
+    }
+}
+    .business-type {
+        padding: 0rem 7rem;
+
+        img {
+            width: 100%;
+        }
+
+    }
+
+    h3 {
+        color: white;
+        font-size: 42px;
+        font-weight: 600;
+      padding-top: 4rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .multi-currency {
+        color: white;
+        line-height: 28px;
+        font-size: 18px;
+        margin-right: 10rem;
+        opacity: 0.6;
+
+    }
+
+    Button {
+        padding: 1rem 3rem !important;
+        font-size: 14px !important;
+        margin-top: 1rem;
+        background-color: #161627;
+        border: #161627;
+        font-weight: 600;
+
+        .arrow {
+            margin-left: 4px;
+        }
+
+        .MuiSvgIcon-root {
+            font-size: 13px;
+        }
+    }
+
+
+}
+
+/*.......Section5......*/
+.e-commerce {
+    padding-left: 7rem;
+}
+.open-for-growth {
+    h1{
+        line-height: 0.9;
+    color: white;
+    font-size: 64px;
+    span{
+        opacity: 0.7;
+    }
+    }
+}
+
+.let-go{
+    width: 38%;
+    text-align: right;
+    padding-top: 3.5rem;
+    .Go-btn {
+        margin-right: 30px;
+        border-radius: 10px;
+        border: 0px;
+        background-color: #144bff;
+        color: white;
+        padding: 1rem 4rem !important; 
+        font-size: 14px !important;
+    }
+}
+.counts{
+    padding:0rem 3rem 4rem 3rem;
+    color: white;
+    h1{
+        font-size: 42px;
+        font-weight: 700;
+    }
+   .proven-leader,.years-working,.merchants {
+    font-size: 18px;
+    padding-top: 15px;
+    opacity: 0.6;
+
+   }
+}
+.more-details{
+    padding: 0rem 2.8rem 5rem 2.8rem;
+    .bitcoin{
+        font-size: 14px;
+        font-weight: 400;
+        color: white;
+        opacity: 0.6;
+        padding-bottom: 10px;
+    }
+    .Cryptoprocessing-btn{
+        background-color: #575757;
+        border: #575757;
+        
+        padding: 0.9rem 1.7rem;
+        font-size: 14px;
+        font-weight: 600;
+    }
+}

@@ -3,6 +3,7 @@ import './Scss/Home.scss';
 import { Button } from 'react-bootstrap';
 import TableCrypto from './TableCrypto.js';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+
 function HomePage(){
 return(
     <>

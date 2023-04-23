@@ -1,5 +1,4 @@
 import React from 'react'
-import './Scss/Home.scss';
 import { Button } from 'react-bootstrap';
 import TableCrypto from './TableCrypto.js';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
@@ -26,7 +25,9 @@ const Home = () => {
                         <div class='A-logo'><img src='https://thumb.tildacdn.com/tild6338-3934-4062-b436-373865313030/-/resize/90x/-/format/webp/1.png' className='goto'></img></div>
                     </div>
                 </div>
-                <div className='col-lg-4'><img src='https://static.tildacdn.com/tild6535-3039-4735-b831-323736373938/-2_0001_12100cd53.png' alt='image' /></div>
+                <div className='col-lg-4'>
+                    <img src='https://static.tildacdn.com/tild6535-3039-4735-b831-323736373938/-2_0001_12100cd53.png' alt='image' />
+                </div>
             </div>
         </div>
 
@@ -100,7 +101,7 @@ const Home = () => {
                     <div className='col-lg-6 business-type'>
                         <img src='https://static.tildacdn.com/tild3763-3161-4330-b435-393764636365/Forex.png' />
                     </div>
-                    <div className='col-lg-6'>
+                    <div className='col-lg-6 forex'>
                         <h3>Forex and Binary</h3>
                         <div className='multi-currency'>Our processor is an ideal coin payment solution for the Forex industry.
                             <br></br>
@@ -168,7 +169,7 @@ const Home = () => {
         </div>
 <div className='custom-container'>
         <div className='row counts'>
-            <div className='col-lg-4 col-sm-4 '><h1>#1</h1>
+            <div className='col-lg-4 col-sm-4'><h1>#1</h1>
             <div className='proven-leader'>CryptoProcessing by CoinsPaid is a proven leader in the market.</div></div>
             <div className='col-lg-4 col-sm-4'><h1>9+</h1><div className='years-working'>Years working with cryptocurrency.</div></div>
             <div className='col-lg-4 col-sm-4'><h1>800+</h1>

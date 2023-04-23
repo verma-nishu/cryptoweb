@@ -175,25 +175,7 @@ h1{
 
 }
 
-// .accept {
-//     color: white;
-//     border-top: 1px solid #161627;
-//     padding: 1.7rem 0rem;
 
-//     margin-right: 20px;
-//     font-size: 16px;
-//     opacity: 0.8;
-// }
-
-// .get-paid {
-//     color: white;
-//     padding: 1.7rem 0rem;
-//     margin-left: 20px;
-//     border-top: 1px solid #161627;
-
-//     font-size: 16px;
-//     opacity: 0.8;
-// }
 
 .CryptoProcessing {
     font-family: 'Sk-Modernist', Arial, sans-serif;
@@ -235,7 +217,15 @@ h1{
     background-color: #161627;
 
     .integrate {
-        padding: 0rem 7rem;
+       
+    @media only screen and (max-width:480px) {
+
+        h1 {
+            font-size: 38px !important;
+        }
+      
+
+    }
 
         h1 {
             line-height: 0.9;
@@ -250,7 +240,7 @@ h1{
     }
 
     .margin-save {
-        margin: 0rem 6rem;
+      
         padding-bottom: 5rem;
 
         .save-up {
@@ -308,7 +298,7 @@ h1{
     background-color: #040517;
 
     .acceptance {
-        padding: 0rem 7rem;
+      
 
         h1 {
             line-height: 0.9;
@@ -321,7 +311,7 @@ h1{
         }
     }
 .leave-your{
-    margin: 0rem 3rem;
+  
     justify-content: space-between;
     padding-bottom: 4rem;
     .free-marketing{
@@ -343,14 +333,18 @@ h1{
     }
 }
     .business-type {
-        padding: 0rem 7rem;
+      
 
         img {
             width: 100%;
+            min-width: 480px;
+            
         }
 
     }
-
+.forex{
+    padding-left: 9rem!important;
+}
     h3 {
         color: white;
         font-size: 42px;
@@ -363,7 +357,7 @@ h1{
         color: white;
         line-height: 28px;
         font-size: 18px;
-        margin-right: 10rem;
+        margin-right: 1rem;
         opacity: 0.6;
 
     }
@@ -418,7 +412,7 @@ h1{
     }
 }
 .counts{
-    padding:0rem 3rem 4rem 3rem;
+    padding:0rem 0rem 4rem 0rem;
     color: white;
     h1{
         font-size: 42px;
@@ -432,7 +426,7 @@ h1{
    }
 }
 .more-details{
-    padding: 0rem 2.8rem 5rem 2.8rem;
+    padding: 0rem 0rem 5rem 0rem;
     .bitcoin{
         font-size: 14px;
         font-weight: 400;

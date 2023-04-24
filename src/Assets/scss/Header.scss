@@ -13,7 +13,10 @@
 .sign-up{
     padding: 0.4rem 1.7rem;
 }
-
+.navbar-toggler:hover {
+    text-decoration: none;
+    background: white;
+}
 .navbar-section .collapsed{
     background-color: white;
 }

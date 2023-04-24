@@ -1,12 +1,12 @@
 
-
-
-
-
 body::-webkit-scrollbar{
     display: none !important;
 }
 
-
+@import './Common.scss';
 
 @import './Home.scss';
+
+@import './BecomePartner.scss';
+ 
+@import './ContactUs.scss';

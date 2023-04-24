@@ -2,90 +2,97 @@ import React from 'react'
 import { Button } from 'react-bootstrap';
 import TableCrypto from './TableCrypto.js';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import Header from './Header.js'
+import A_logo from './Assets/images/A_logo.png'
+import BecomePartner from './BecomePartner.js';
 const Home = () => {
     return (<>
+
        
 
-<div className='home-page'>
-        <div class='custom-container'>
-        <div className='row section1'>
-                <div className='col-lg-8 align-self-center pt-5 payment-gateway'>
-                    <h1>CryptoProcessing.com
-                        your #1 crypto payment gateway by CoinsPaid</h1>
-                    <div class='d-flex pt-4'>
-                        <div className='accept'>Accept payments in 20+ cryptocurrencies from end users around the world,</div>
-                        <div className='get-paid'>Get paid in USD, EUR, GBP and other fiat currencies directly to your bank account</div>
+        <div className='home-page'>
+      <Header/>
+        {/* <BecomePartner/> */}
+            
+            <div class='custom-container'>
+                <div className='row section1'>
+                    <div className='col-lg-8 align-self-center pt-5 payment-gateway'>
+                        <h1>CryptoProcessing.com
+                            your #1 crypto payment gateway by CoinsPaid</h1>
+                        <div class='d-flex pt-4'>
+                            <div className='accept'>Accept payments in 20+ cryptocurrencies from end users around the world,</div>
+                            <div className='get-paid'>Get paid in USD, EUR, GBP and other fiat currencies directly to your bank account</div>
+                        </div>
+                        <div className='section1-btn'>
+                            <div><Button variant="primary" className='consultation'>Get Free Consultation</Button></div>
+                            <div><Button className='goto'>Go to CryptoProcessing.com</Button></div>
+                        </div>
+                        <div className='section1-bottom-logo'>
+                            <div class='award'><h4>SBCAWARDS</h4></div>
+                            <div class='A-logo'><img src={A_logo} className='goto'/></div>
+                        </div>
                     </div>
-                    <div className='section1-btn'>
-                        <div><Button variant="primary" className='consultation'>Get Free Consultation</Button></div>
-                        <div><Button className='goto'>Go to CryptoProcessing.com</Button></div>
-                    </div>
-                    <div className='section1-bottom-logo'>
-                        <div class='award'><h4>SBCAWARDS</h4></div>
-                        <div class='A-logo'><img src='https://thumb.tildacdn.com/tild6338-3934-4062-b436-373865313030/-/resize/90x/-/format/webp/1.png' className='goto'></img></div>
-                    </div>
-                </div>
-                <div className='col-lg-4'>
-                    <img src='https://static.tildacdn.com/tild6535-3039-4735-b831-323736373938/-2_0001_12100cd53.png' alt='image' />
-                </div>
-            </div>
-        </div>
-
-        <div class='should-integrate'>
-        <div className='custom-container pt-5'>
-                <div className='row pt-4'>
-                    <div className='col-lg-12 integrate'>
-                        <h1>Why you should integrate
-                            <br>
-                            </br><span>our crypto payment gateway</span>
-                        </h1>
-
-
-                    </div>
-
-                </div>
-                <div className='row pt-4 margin-save'>
-                    <div className='col-lg-4 save-up'>
-                        <h3>Save up to 80% on fees
-                            <br>
-                            </br><span>vs traditional PSPs</span>
-                        </h3>
-
-
-                    </div>
-
-                    <div className='col-lg-4 save-up'>
-                        <h3>Boost conversion rate
-                            <br>
-                            </br><span>up to 35%</span>
-                        </h3>
-
-
-                    </div>
-                    <div className='col-lg-4 save-up'>
-                        <h3>Achieve 100% global
-                            <br>
-                            </br><span>coverge</span>
-                        </h3>
-
-
-                    </div>
-                </div>
-        </div>
-        </div>
-
-        <div class='section3'>
-        <div class='custom-container section3'>
-                <div class='row'>
-                    <div class='col-lg-12 table-scroll'>
-                        <div class='table-section'><TableCrypto /></div>
-
+                    <div className='col-lg-4'>
+                        <img src='https://static.tildacdn.com/tild6535-3039-4735-b831-323736373938/-2_0001_12100cd53.png' alt='image' />
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div className='custom-container acceptance-section4 pt-5'>
+            <div class='should-integrate'>
+                <div className='custom-container pt-5'>
+                    <div className='row pt-4'>
+                        <div className='col-lg-12 integrate'>
+                            <h1>Why you should integrate
+                                <br>
+                                </br><span>our crypto payment gateway</span>
+                            </h1>
+
+
+                        </div>
+
+                    </div>
+                    <div className='row pt-4 margin-save'>
+                        <div className='col-lg-4 save-up'>
+                            <h3>Save up to 80% on fees
+                                <br>
+                                </br><span>vs traditional PSPs</span>
+                            </h3>
+
+
+                        </div>
+
+                        <div className='col-lg-4 save-up'>
+                            <h3>Boost conversion rate
+                                <br>
+                                </br><span>up to 35%</span>
+                            </h3>
+
+
+                        </div>
+                        <div className='col-lg-4 save-up'>
+                            <h3>Achieve 100% global
+                                <br>
+                                </br><span>coverge</span>
+                            </h3>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class='section3'>
+                <div class='custom-container section3'>
+                    <div class='row w-100'>
+                        <div class='col-lg-12 table-scroll'>
+                            <div class='table-section'><TableCrypto /></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='custom-container acceptance-section4'>
                 <div className='row pt-4'>
                     <div className='col-lg-12 acceptance'>
                         <h1>100% acceptance rate
@@ -110,7 +117,7 @@ const Home = () => {
                         <Button>Know More<span class='arrow'><ArrowForwardIcon /></span></Button>
                     </div>
                 </div>
-                <div className='row'>
+                <div className='row commerce-section'>
                     <div className='col-lg-6 e-commerce'>
                         <h3>e-Commerce</h3>
                         <div className='multi-currency'>
@@ -125,28 +132,32 @@ const Home = () => {
                 </div>
                 <div className='d-flex leave-your'>
                     <div class='free-marketing'><h3>Leave your request today and get a free marketing advice from our team</h3></div>
-                   <div class='contact-sales'><Button variant="primary" className='Contact-btn'>Contact Sales</Button></div> 
+                    <div class='contact-sales'><Button variant="primary" className='Contact-btn'>Contact Sales</Button></div>
                 </div>
-        </div>
-        {/* Section5 */}
-        <div className='custom-container acceptance-section4 pt-5'>
-                
+            </div> 
+
+
+            {/* Section5 */}
+
+
+             <div className='custom-container acceptance-section4 pt-5'>
+
                 <div className='row'>
                     <div className='col-lg-6 business-type'>
                         <img src='https://static.tildacdn.com/tild6162-3034-4833-a466-613361383639/tickets.png' />
                     </div>
                     <div className='col-lg-6'>
                         <h3>Leisure activities</h3>
-                        <div className='multi-currency'>Our crypto payment gateway is a borderless method with 99.99% uptime and no exchange rate risks: a user pays in cryptocurrency, and a merchant instantly receives an equal amount in the fiat currency of their choice. The provider also supports recurring payments. 
+                        <div className='multi-currency'>Our crypto payment gateway is a borderless method with 99.99% uptime and no exchange rate risks: a user pays in cryptocurrency, and a merchant instantly receives an equal amount in the fiat currency of their choice. The provider also supports recurring payments.
                         </div>
                         <Button>Know More<span class='arrow'><ArrowForwardIcon /></span></Button>
                     </div>
                 </div>
-                <div className='row'>
+                <div className='row software'>
                     <div className='col-lg-6 e-commerce'>
                         <h3>Software vendors</h3>
                         <div className='multi-currency'>
-                        Our service provides a range of cryptocurrency payment methods to your customers that fit every business model: invoices, payment links, recurring payments and channels. Integrate the best payment gateway in your platform and increase your conversion rate.
+                            Our service provides a range of cryptocurrency payment methods to your customers that fit every business model: invoices, payment links, recurring payments and channels. Integrate the best payment gateway in your platform and increase your conversion rate.
                         </div>
                         <Button>Know More<span class='arrow'><ArrowForwardIcon /></span></Button>
                     </div>
@@ -157,30 +168,30 @@ const Home = () => {
                 </div>
                 <div className='d-flex leave-your'>
                     <div class='free-marketing'><h3>Get to know how we've already helped to save over $500M for our customers.</h3></div>
-                   <div class='contact-sales'><Button variant="primary" className='Contact-btn'>Talk with us</Button></div> 
+                    <div class='contact-sales'><Button variant="primary" className='Contact-btn'>Talk with us</Button></div>
                 </div>
                 <div className='d-flex leave-your'>
                     <div class='open-for-growth'>    <h1>Open for growth?
-                            <br>
-                            </br><span>Work with leaders.</span>
-                        </h1></div>
-                   <div class='let-go'><Button variant="primary" className='Go-btn'>LET'S GO</Button></div> 
+                        <br>
+                        </br><span>Work with leaders.</span>
+                    </h1></div>
+                    <div class='let-go'><Button variant="primary" className='Go-btn'>LET'S GO</Button></div>
                 </div>
+            </div>
+            <div className='custom-container'>
+                <div className='row counts'>
+                    <div className='col-lg-4 col-sm-4 col-4'><h1>#1</h1>
+                        <div className='proven-leader'>CryptoProcessing by CoinsPaid is a proven leader in the market.</div></div>
+                    <div className='col-lg-4 col-sm-4 col-4'><h1>9+</h1><div className='years-working'>Years working with cryptocurrency.</div></div>
+                    <div className='col-lg-4 col-sm-4 col-4'><h1>800+</h1>
+                        <div className='merchants'>Merchants entrust their transactions to us from more than 10M customers.</div></div>
+                </div>
+                <div className='row more-details pt-4'>
+                    <div className='col-lg-12 bitcoin'>Find more details about Bitcoin Payment Gateway Processor and coins payment on our website</div>
+                    <div className='col-lg-12'><Button className='Cryptoprocessing-btn'>Cryptoprocessing.com</Button></div>
+                </div>
+            </div> 
         </div>
-<div className='custom-container'>
-        <div className='row counts'>
-            <div className='col-lg-4 col-sm-4'><h1>#1</h1>
-            <div className='proven-leader'>CryptoProcessing by CoinsPaid is a proven leader in the market.</div></div>
-            <div className='col-lg-4 col-sm-4'><h1>9+</h1><div className='years-working'>Years working with cryptocurrency.</div></div>
-            <div className='col-lg-4 col-sm-4'><h1>800+</h1>
-            <div className='merchants'>Merchants entrust their transactions to us from more than 10M customers.</div></div>
-        </div>
-        <div className='row more-details pt-4'>
-            <div className='col-lg-12 bitcoin'>Find more details about Bitcoin Payment Gateway Processor and coins payment on our website</div>
-            <div className='col-lg-12'><Button className='Cryptoprocessing-btn'>Cryptoprocessing.com</Button></div>
-        </div>
-        </div>
-</div>
     </>
     )
 }

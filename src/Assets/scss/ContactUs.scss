@@ -1,0 +1,61 @@
+@import "~bootstrap/scss/bootstrap";
+
+.contact-section {
+    background-color: #040517;
+
+    .start-row {
+        padding: 4rem 8rem;
+    }
+
+    .future-heading {
+        font-weight: 700;
+        line-height: 55px;
+        padding-bottom: 1rem;
+        color: white;
+        font-size: 56px;
+        padding-bottom: 4rem;
+
+    }
+
+    .details {
+        font-size: 16px;
+        color: white;
+        opacity: 0.5;
+    }
+    .contact-btn{
+        text-align: center;
+        align-self: center;
+        .contact-us{
+            padding-top: 7.5rem;
+
+            .contact{
+                padding: 1rem 3.7rem;
+            }
+        }
+    }
+    .independent{
+        display: flex;
+        align-items: center;
+        padding-top: 6rem;
+     .guards10{
+        margin-right: 20px;
+     }
+        h3{
+            margin-right: 20px;
+            color: #ffffff;
+    font-size: 20px;
+    font-family: 'Sk-Modernist',Arial,sans-serif;
+    line-height: 1;
+    font-weight: 700;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+        }
+        .guard{
+            width: 90px;
+        }
+        .noroot{
+            width: 50px;
+        }
+    }
+}

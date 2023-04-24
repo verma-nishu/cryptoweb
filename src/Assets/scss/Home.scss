@@ -4,11 +4,12 @@
     width: 100%;
     margin: auto;
     padding: 0rem 4rem;
-    max-width: 1600px;
-  
+    max-width: 1450px;
+
 
 }
-.home-page{
+
+.home-page {
     background: #040517;
 }
 
@@ -18,40 +19,48 @@
         padding: 0px 0px 0px 10px !important;
     }
 }
+
 @media only screen and (max-width:958px) and (min-width:640px) {
-    .section1{
+    .section1 {
         flex-direction: column-reverse !important;
     }
 }
 
 .section1 {
     justify-content: space-between;
-  
+
     @media only screen and (max-width: 768px) and (min-width: 481px) {
         .payment-gateway {
             padding-left: 4rem;
             padding-right: 4rem;
+
             h1 {
                 font-size: 40px
             }
-            .accept{
+
+            .accept {
                 font-size: 15px !important;
             }
-            .get-paid{
+
+            .get-paid {
                 font-size: 15px !important;
             }
         }
     }
+
     @media only screen and (max-width: 992px) and (min-width: 768px) {
-h1{
-    font-size: 40px !important;
-}
+        h1 {
+            font-size: 40px !important;
+        }
 
     }
+
     @media only screen and (max-width: 958px) and (min-width: 768px) {
-        .section1-btn{
+        .section1-btn {
             justify-content: space-between !important;
-        }}
+        }
+    }
+
     h1 {
         font-size: 64px;
         text-align: left;
@@ -59,15 +68,17 @@ h1{
 
     }
 
-    @media only screen and (max-width:480px) {
+    @media ($breakpoint_479) {
 
         h1 {
-            font-size: 40px
+            font-size: 26px;
         }
-        .accept{
+
+        .accept {
             font-size: 15px !important;
         }
-        .get-paid{
+
+        .get-paid {
             font-size: 15px !important;
         }
 
@@ -99,27 +110,6 @@ h1{
 
 }
 
-
-
-
-
-.cryptoprocessing-section {
-    background-color: black;
-    padding: 0px;
-    margin: 0px;
-
-    h1 {
-        font-size: 64px;
-        text-align: left;
-        color: white;
-    }
-
-}
-
-.coins-paid {
-    padding: 0rem 7rem;
-}
-
 .accept-payments {
     display: flex;
     text-align: left;
@@ -132,6 +122,12 @@ h1{
     display: flex;
     margin-bottom: 6rem;
 
+    @media ($breakpoint_479) {
+
+        display: block !important;
+
+    }
+
     .consultation {
         margin-right: 30px;
         border-radius: 10px;
@@ -140,6 +136,12 @@ h1{
         color: white;
         padding: 1rem 1.5rem !important;
         font-size: 14px !important;
+
+        @media ($breakpoint_479) {
+
+            width: 100%;
+
+        }
     }
 
     .goto {
@@ -150,6 +152,12 @@ h1{
         color: white;
         padding: 1rem 1.5rem !important;
         font-size: 14px !important;
+
+        @media ($breakpoint_479) {
+            margin-top: 10px;
+            width: 100%;
+
+        }
     }
 }
 
@@ -157,10 +165,20 @@ h1{
     display: flex;
     padding-bottom: 2rem;
 
+    @media ($breakpoint_479) {
+
+        text-align: center;
+        justify-content: space-between;
+        padding: 0rem 2rem;
+     
+    }
+
     .award {
         margin-right: 4rem;
         margin-top: 10px;
-
+        @media ($breakpoint_479) {
+            margin-right: 0rem;
+        }
         h4 {
             color: white;
             font-size: 1.5rem;
@@ -217,15 +235,16 @@ h1{
     background-color: #161627;
 
     .integrate {
-       
-    @media only screen and (max-width:480px) {
 
-        h1 {
-            font-size: 38px !important;
+        @media only screen and (max-width:480px) {
+
+            h1 {
+                font-size: 38px !important;
+                padding: 0px 0px 2rem 0px !important;
+            }
+
+
         }
-      
-
-    }
 
         h1 {
             line-height: 0.9;
@@ -240,10 +259,17 @@ h1{
     }
 
     .margin-save {
-      
+        @media only screen and (max-width:480px) {
+            padding-bottom: 0rem;
+        }
+
         padding-bottom: 5rem;
 
         .save-up {
+            @media only screen and (max-width:480px) {
+                padding-bottom: 2rem;
+            }
+
             h3 {
                 color: white;
                 line-height: 1;
@@ -257,9 +283,11 @@ h1{
 .section3 {
     background-color: #161627;
     padding: 1.5rem 0rem 4rem;
-.table-scroll{
-    overflow-x: scroll;
-}
+
+    .table-scroll {
+        overflow-x: scroll;
+    }
+
     .table-section {
         table {
             margin: auto;
@@ -296,9 +324,29 @@ h1{
 /*.....Section4............*/
 .acceptance-section4 {
     background-color: #040517;
+    padding-top: 3rem;
+
+    @media only screen and (max-width:480px) {
+
+        .acceptance-section4 {
+
+            padding-top: 1rem !important;
+
+        }
+
+
+
+
+    }
+
 
     .acceptance {
-      
+        @media only screen and (max-width:480px) {
+            h1 {
+
+                font-size: 38px !important;
+            }
+        }
 
         h1 {
             line-height: 0.9;
@@ -310,46 +358,92 @@ h1{
             }
         }
     }
-.leave-your{
-  
-    justify-content: space-between;
-    padding-bottom: 4rem;
-    .free-marketing{
-        width: 62%;
-    }
-    .contact-sales{
-        width: 38%;
-        text-align: right;
-        padding-top: 3.5rem;
-        .Contact-btn {
-            margin-right: 30px;
-            border-radius: 10px;
-            border: 0px;
-            background-color: #144bff;
-            color: white;
-            padding: 1rem 3.5rem !important; 
-            font-size: 14px !important;
+
+    .leave-your {
+
+        justify-content: space-between;
+        padding-bottom: 4rem;
+
+        @media ($breakpoint_479) {
+            display: block !important;
+        }
+
+        .free-marketing {
+            width: 62%;
+
+            @media ($breakpoint_479) {
+                width: 100%;
+            }
+
+            @media only screen and (max-width:768px) {
+                h3 {
+                    font-size: 24px !important;
+                }
+            }
+        }
+
+        .contact-sales {
+            width: 38%;
+            text-align: right;
+            padding-top: 3.5rem;
+
+            @media ($breakpoint_479) {
+                width: 100%;
+                padding-top: 0px;
+                text-align: left;
+            }
+
+            .Contact-btn {
+                margin-right: 30px;
+                border-radius: 10px;
+                border: 0px;
+                background-color: #144bff;
+                color: white;
+                padding: 1rem 3.5rem !important;
+                font-size: 14px !important;
+
+                @media ($breakpoint_479) {
+                    width: 100%;
+                }
+
+                @media only screen and (max-width:768px) {
+                    padding: 1rem 1.5rem !important;
+                }
+            }
         }
     }
-}
+
     .business-type {
-      
+
 
         img {
             width: 100%;
             min-width: 480px;
-            
+
+            @media ($breakpoint_479) {
+                width: 100% !important;
+                min-width: auto;
+            }
+
         }
 
     }
-.forex{
-    padding-left: 9rem!important;
-}
+
+
+    .forex {
+        padding-left: 9rem !important;
+
+        @media ($breakpoint_576) {
+            padding-left: 10px !important;
+        }
+
+    }
+
     h3 {
         color: white;
         font-size: 42px;
         font-weight: 600;
-      padding-top: 4rem;
+        padding-top: 4rem;
         margin-bottom: 1.5rem;
     }
 
@@ -383,61 +477,111 @@ h1{
 }
 
 /*.......Section5......*/
-.e-commerce {
-    padding-left: 7rem;
-}
-.open-for-growth {
-    h1{
-        line-height: 0.9;
-    color: white;
-    font-size: 64px;
-    span{
-        opacity: 0.7;
-    }
+@media only screen and (max-width:992px) {
+    .commerce-section {
+        flex-direction: column-reverse;
     }
 }
 
-.let-go{
+.e-commerce {
+    padding-left: 7rem;
+}
+
+.software {
+    @media ($breakpoint_479) {
+    flex-direction: column-reverse;}
+}
+
+.open-for-growth {
+    h1 {
+        line-height: 0.9;
+        color: white;
+        font-size: 64px;
+
+        @media ($breakpoint_479) {
+            font-size: 34px;
+        }
+
+        span {
+            opacity: 0.7;
+        }
+    }
+}
+
+.let-go {
     width: 38%;
     text-align: right;
     padding-top: 3.5rem;
+
+    @media ($breakpoint_479) {
+        padding-top: 0rem;
+        width: auto;
+        text-align: left;
+
+    }
+
     .Go-btn {
         margin-right: 30px;
         border-radius: 10px;
         border: 0px;
         background-color: #144bff;
         color: white;
-        padding: 1rem 4rem !important; 
+        padding: 1rem 4rem !important;
         font-size: 14px !important;
+
+        @media ($breakpoint_479) {
+
+            width: 100%;
+        }
     }
 }
-.counts{
-    padding:0rem 0rem 4rem 0rem;
+
+.counts {
+    padding: 0rem 0rem 4rem 0rem;
     color: white;
-    h1{
+
+    @media only screen and (max-width:576px) {
+        h1 {
+            font-size: 24px !important;
+        }
+
+        .proven-leader,
+        .years-working,
+        .merchants {
+            font-size: 9px !important;
+        }
+    }
+
+    h1 {
         font-size: 42px;
         font-weight: 700;
     }
-   .proven-leader,.years-working,.merchants {
-    font-size: 18px;
-    padding-top: 15px;
-    opacity: 0.6;
 
-   }
+    .proven-leader,
+    .years-working,
+    .merchants {
+        font-size: 18px;
+        padding-top: 15px;
+        opacity: 0.6;
+
+    }
 }
-.more-details{
+
+.more-details {
     padding: 0rem 0rem 5rem 0rem;
-    .bitcoin{
+
+    .bitcoin {
         font-size: 14px;
         font-weight: 400;
         color: white;
         opacity: 0.6;
         padding-bottom: 10px;
     }
-    .Cryptoprocessing-btn{
+
+    .Cryptoprocessing-btn {
         background-color: #575757;
         border: #575757;
-        
+
         padding: 0.9rem 1.7rem;
         font-size: 14px;
         font-weight: 600;

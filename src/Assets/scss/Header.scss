@@ -1,0 +1,60 @@
+@import "~bootstrap/scss/bootstrap";
+.navbar-section{
+    background: #040517;
+}
+.login-space{
+    
+    margin-right: 10px;
+.login{
+    padding: 0.4rem 1.8rem;
+    background-color: #1d1e33;
+    border: #1d1e33;
+}}
+.sign-up{
+    padding: 0.4rem 1.7rem;
+}
+.navbar-toggler:hover {
+    text-decoration: none;
+    background: white;
+}
+.navbar-section .collapsed{
+    background-color: white;
+}
+.header-top{
+    text-align: center;
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.logo{
+    margin-right: 30px;
+}
+.coinspaid-logo{
+    width: 174px;
+    min-width: 174px;
+    height: auto;
+}
+.nav-styles{
+    margin-right: 7rem;
+}
+.list{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.link-items{
+    padding: 1rem;
+}
+.link-items a{
+    text-decoration: none;
+    color: #9b9ba2;
+    font-size: 15px;
+    font-weight: 700;
+    opacity: 0.8;
+}
+.link-items a:hover{
+    color: #ffffff !important;
+}
+.spacing-top{
+    padding-top: 0.5rem;
+}

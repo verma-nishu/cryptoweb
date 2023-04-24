@@ -1,0 +1,117 @@
+@import "~bootstrap/scss/bootstrap";
+.become-section{
+    background-color: #040517;
+    padding-bottom: 5rem;
+
+.coinpaid-row{
+    padding: 5rem 9rem;
+.become-coinspaid {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 55px;
+    padding-bottom: 1rem;
+color: white;
+    // @media ($breakpoint_479) {
+    //     font-weight: 700;
+    //     font-size: 31px;
+    //     line-height: 31px;
+    //     padding-bottom: 1rem;
+    // }
+}
+.network{
+    color: white;
+    opacity: 0.54;
+}
+.button-column {
+    text-align: center;
+
+    .become-partner {
+        padding-top: 2.5rem;
+
+        .become-btn {
+            padding: 1rem 3.7rem;
+        }
+    }
+
+}}
+
+}
+.brand-section{
+    background-color: #040517;
+    padding-bottom: 5rem;
+.brand-guide{
+    padding: 0rem 5rem 5rem 5rem;
+    color: white;
+    h1{
+        font-weight: 700;
+        font-size: 55px;
+    }
+   
+}
+.promotion{
+    opacity: 0.54;
+}
+.cards-space{
+    padding: 2rem 5rem 0rem 5rem;
+}
+.card{
+    width: 350px;
+    border: none;
+    .card-body{
+        padding: 20px;
+    .card-title{
+        font-size: 20px;
+    }
+    .card-text{
+        // min-height: 70px !important;
+        font-size: 14px;
+    
+    }
+    .get{
+        font-size: 13px !important;
+        padding: 0.3rem 1.3rem;
+    }
+    .explore{
+        font-size: 13px !important;
+        padding: 0.3rem 1.5rem;
+    }
+    .read{
+        font-size: 13px !important;
+        padding: 0.3rem 2rem;
+    }
+}}
+.card-img-top{
+    width: 100%;
+
+
+
+   
+}}
+
+
+.join-section{
+    background-color: #040517;
+    padding-bottom: 5rem;
+.community-row{
+    padding: 5rem 8rem;
+    .join-our{
+        font-size: 72px;
+        color: white;
+        font-weight: 700;
+        font-family: 'SK-Modernist',Arial,sans-serif;
+    }
+    .appreciate{
+        font-size: 18px;
+        color: #919394;
+        padding-bottom: 2rem;
+    }
+    .let-btn{
+        font-size: 14px;
+        font-family: 'Arial',Arial,sans-serif;
+        font-weight: 600;
+        padding: 1rem 4rem;
+    }
+}
+  
+
+}

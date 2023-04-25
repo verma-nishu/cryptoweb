@@ -5,6 +5,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import Header from './Header.js'
 import A_logo from './Assets/images/A_logo.png'
 import BecomePartner from './BecomePartner.js';
+import Footer from './Assets/Footer.js';
 const Home = () => {
     return (<>
 
@@ -17,8 +18,8 @@ const Home = () => {
             <div class='custom-container'>
                 <div className='row section1'>
                     <div className='col-lg-8 align-self-center pt-5 payment-gateway'>
-                        <h1>CryptoProcessing.com
-                            your #1 crypto payment gateway by CoinsPaid</h1>
+                        <h1>CryptoProcessing.com<br></br>
+                            your #1 crypto payment <br></br>gateway by CoinsPaid</h1>
                         <div class='d-flex pt-4'>
                             <div className='accept'>Accept payments in 20+ cryptocurrencies from end users around the world,</div>
                             <div className='get-paid'>Get paid in USD, EUR, GBP and other fiat currencies directly to your bank account</div>
@@ -39,8 +40,8 @@ const Home = () => {
             </div>
 
             <div class='should-integrate'>
-                <div className='custom-container pt-5'>
-                    <div className='row pt-4'>
+                <div className='custom-container pt-5 integrate-container'>
+                    <div className='row pt-4 row-why'>
                         <div className='col-lg-12 integrate'>
                             <h1>Why you should integrate
                                 <br>
@@ -52,7 +53,7 @@ const Home = () => {
 
                     </div>
                     <div className='row pt-4 margin-save'>
-                        <div className='col-lg-4 save-up'>
+                        <div className='col-lg-4 col-xl-4 save-up'>
                             <h3>Save up to 80% on fees
                                 <br>
                                 </br><span>vs traditional PSPs</span>
@@ -61,7 +62,7 @@ const Home = () => {
 
                         </div>
 
-                        <div className='col-lg-4 save-up'>
+                        <div className='col-lg-4 col-xl-4 save-up'>
                             <h3>Boost conversion rate
                                 <br>
                                 </br><span>up to 35%</span>
@@ -69,7 +70,7 @@ const Home = () => {
 
 
                         </div>
-                        <div className='col-lg-4 save-up'>
+                        <div className='col-lg-4 col-xl-4 save-up'>
                             <h3>Achieve 100% global
                                 <br>
                                 </br><span>coverge</span>
@@ -93,7 +94,7 @@ const Home = () => {
             </div>
 
             <div className='custom-container acceptance-section4'>
-                <div className='row pt-4'>
+                <div className='row pt-4 row-accept'>
                     <div className='col-lg-12 acceptance'>
                         <h1>100% acceptance rate
                             <br>
@@ -130,7 +131,7 @@ const Home = () => {
                     </div>
 
                 </div>
-                <div className='d-flex leave-your'>
+                <div className='d-flex leave-your request'>
                     <div class='free-marketing'><h3>Leave your request today and get a free marketing advice from our team</h3></div>
                     <div class='contact-sales'><Button variant="primary" className='Contact-btn'>Contact Sales</Button></div>
                 </div>
@@ -140,14 +141,14 @@ const Home = () => {
             {/* Section5 */}
 
 
-             <div className='custom-container acceptance-section4 pt-5'>
+             <div className='custom-container acceptance-section4 activities'>
 
-                <div className='row'>
+                <div className='row row-leisure'>
                     <div className='col-lg-6 business-type'>
                         <img src='https://static.tildacdn.com/tild6162-3034-4833-a466-613361383639/tickets.png' />
                     </div>
                     <div className='col-lg-6'>
-                        <h3>Leisure activities</h3>
+                        <h3 className='leisure'>Leisure activities</h3>
                         <div className='multi-currency'>Our crypto payment gateway is a borderless method with 99.99% uptime and no exchange rate risks: a user pays in cryptocurrency, and a merchant instantly receives an equal amount in the fiat currency of their choice. The provider also supports recurring payments.
                         </div>
                         <Button>Know More<span class='arrow'><ArrowForwardIcon /></span></Button>
@@ -191,6 +192,7 @@ const Home = () => {
                     <div className='col-lg-12'><Button className='Cryptoprocessing-btn'>Cryptoprocessing.com</Button></div>
                 </div>
             </div> 
+            <Footer/>
         </div>
     </>
     )

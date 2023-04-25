@@ -2,6 +2,8 @@
 body::-webkit-scrollbar{
     display: none !important;
 }
+@import "~bootstrap/scss/bootstrap";
+
 
 @import './Common.scss';
 
@@ -10,3 +12,7 @@ body::-webkit-scrollbar{
 @import './BecomePartner.scss';
  
 @import './ContactUs.scss';
+
+@import './Header.scss';
+
+@import './Footer.scss'

@@ -8,12 +8,13 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+
+
 const Header = () => {
 
   return (<>
-  <div className='container'>
-   <Navbar className='navbar-section' expand="lg">
+  <div className='container header-container'>
+   <Navbar className='navbar-section' expand="xl">
       <Container fluid>
         <Navbar.Brand href="#">  <img src='https://static.tildacdn.com/tild3032-3265-4365-b335-353962363338/Ukraine-web.png' className='coinspaid-logo'/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -29,13 +30,13 @@ const Header = () => {
         <li className='link-items'>
            <Link to="/blogs">Wallet</Link>
          </li>
-         <li className='link-items'>
+         <li className='link-items solution'>
           <Link to="/contact">Business solutions</Link>
         </li>
        <li className='link-items'>
           <Link to="/contact">|</Link>
          </li>
-      <li className='link-items'>
+      <li className='link-items became'>
           <Link to="/become-partner">Become a partner</Link>
        </li>
        <li className='link-items'>
@@ -46,8 +47,8 @@ const Header = () => {
          </li>
           </Nav>
         
-            <Button  className='login'>LogIn </Button>
-            <Button  className='sign-up'>Sign Up</Button>
+            <Button  className='login-btn'>LogIn </Button>
+            <Button  className='sign-up-btn'>Sign Up</Button>
          
         </Navbar.Collapse>
       </Container>

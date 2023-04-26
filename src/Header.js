@@ -47,7 +47,7 @@ const Header = () => {
          </li>
           </Nav>
         
-            <Button  className='login-btn'>LogIn </Button>
+            <Button  className='login-btn'><Link to="/login">LogIn</Link> </Button>
             <Button  className='sign-up-btn'>Sign Up</Button>
          
         </Navbar.Collapse>

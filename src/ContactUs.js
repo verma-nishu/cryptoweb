@@ -6,11 +6,12 @@ import guards from './Assets/images/guards.png'
 import noroot from './Assets/images/noroot.png'
 const ContactUs = () => {
     return (
-        <div className='container-fluid contact-section'>
+        <div className='contact-section'>
             <Header />
+            <div className='custom-container'>
             <div className='row start-row'>
-                <div className='col-lg-12 future-heading'><div> Start your future today. Get</div>
-                    <div>a free consultation.</div> </div>
+                <div className='col-lg-12 future-heading'><div> Start your future today. Get<br></br>
+                    a free consultation.</div> </div>
                 <div className='col-lg-6'>
                     <div className='details'>Company details:<br></br>
                         CoinsPaid and Cryptoprocessing brands are operated by "Dream Finance OÜ" <br></br>registered and licensed in Estonia.<br></br>
@@ -26,6 +27,7 @@ const ContactUs = () => {
                     <div class='guards10'><img src={guards} className='guard'/></div>
                     <div><img src={noroot} className='noroot'/></div>
                 </div>
+            </div>
             </div>
         </div>
     )

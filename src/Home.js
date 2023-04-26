@@ -84,7 +84,7 @@ const Home = () => {
 
             <div class='section3'>
                 <div class='custom-container section3'>
-                    <div class='row w-100'>
+                    <div class='row w-100 table-row'>
                         <div class='col-lg-12 table-scroll'>
                             <div class='table-section'><TableCrypto /></div>
 

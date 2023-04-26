@@ -1,0 +1,169 @@
+@import "~bootstrap/scss/bootstrap";
+
+
+.login-page {
+    background: #040517;
+    overflow-x: hidden;
+
+    .sign-up-section {
+
+        padding-bottom: 10rem;
+        padding-left: 0px;
+        padding-right: 0px;
+        @media ($breakpoint_1400) {
+            padding-right:0rem ;
+        }
+        @media ($breakpoint_768) {
+            padding:0rem 2rem 6rem 2rem;
+        }
+        @media ($breakpoint_576) {
+            padding:0rem 1rem 6rem 1rem;
+        }
+        @media ($breakpoint_479) {
+            padding:0rem 0rem 6rem 0rem;
+        }
+
+        .welcome-heading {
+            text-align: center;
+            align-items: center;
+            padding-top: 5rem;
+
+            @media ($breakpoint_576) {
+                padding: 5rem 1rem 0rem 1rem;
+            }
+
+            h1 {
+                font-size: 24px;
+                color: white;
+                font-weight: 400;
+                padding: 3rem 0rem;
+            }
+        }
+
+        .ecosystem {
+            color: white;
+            font-family: 'Sk-Modernist', Arial, sans-serif;
+            font-size: 74px;
+            font-weight: 700;
+            line-height: 74px;
+
+            @media ($breakpoint_576) {
+
+                font-size: 50px;
+                line-height: 50px;
+            }
+
+            @media ($breakpoint_479) {
+
+                font-size: 43px;
+                line-height: 43px;
+
+
+            }
+
+        }
+
+
+        .login-buttons {
+            display: flex;
+
+            justify-content: center;
+
+       
+            @media ($breakpoint_576) {
+                display: flex;
+                padding: 0rem ;
+            }
+            @media ($breakpoint_479) {
+                flex-direction: column;
+                padding: 0rem 1rem;
+            }
+
+            @media ($breakpoint_768) {
+                .media-personal{
+    
+                    text-align: right;
+                }}
+
+            @media ($breakpoint_479) {
+            .media-personal{
+
+                padding-top:2rem;
+            }}
+            .personal {
+                margin-right: 30px;
+                border-radius: 10px;
+                border: 0px;
+                background-color: #144bff;
+                color: white;
+                padding: 1rem 5.5rem ;
+                font-size: 16px !important;
+
+                @media ($breakpoint_576) {
+                    margin-top: 0px;
+                    width: 100%;
+                    margin-right: 0px;
+                    padding: 1rem 4.5rem ;
+                }
+
+                @media ($breakpoint_479) {
+                    margin-top: 10px;
+                    width: 100%;
+                    margin-right: 0px;
+                }
+
+
+            }
+
+            .personal-account {
+                font-size: 12px;
+                color: white;
+                opacity: 0.5;
+                text-align: left;
+                padding-top: 10px;
+
+                @media ($breakpoint_479) {
+                    text-align: center;
+                }
+            }
+
+            .your {
+                font-size: 12px;
+                color: white;
+                opacity: 0.5;
+                text-align: left;
+                padding-top: 10px;
+
+                @media ($breakpoint_479) {
+                    text-align: center;
+                }
+            }
+
+            .business {
+
+                border-radius: 10px;
+                border: 0px;
+                background-color: #575757;
+                color: white;
+                padding: 1rem 5.5rem ;
+                font-size: 16px !important;
+
+                @media ($breakpoint_576) {
+                  padding:1rem 4.5rem;
+
+                }
+                @media ($breakpoint_479) {
+                    margin-top: 10px;
+                    width: 100%;
+
+                }
+            }
+
+            .business:hover {
+                background-color: #144bff;
+            }
+        }
+
+
+    }
+}

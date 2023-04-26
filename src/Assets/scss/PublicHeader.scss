@@ -1,11 +1,7 @@
 .navbar-section {
     background: #040517;
-    @media ($breakpoint_1200){
-        background-color: red;
-    }
 
-
-
+  
 }
 
 .login-space {
@@ -19,6 +15,10 @@
     background-color: #1d1e33 !important;
     border: #1d1e33 !important;
     margin-right: 10px;
+    a {
+        text-decoration: none;
+        color: white;
+    }
 }
 
 .solution {

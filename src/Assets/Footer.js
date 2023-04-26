@@ -9,7 +9,7 @@ import TelegramIcon from '@mui/icons-material/Telegram';
 import './scss/Footer.scss'
 const Footer = () => {
     return (
-        <div className='container'>
+        <div className='custom-container footer-bottom-spacing'>
             <div className='row'>
                 <div className='col-lg-3 col-sm-6'>
                     <img src={footer_image} />
@@ -58,6 +58,10 @@ const Footer = () => {
                         <li className='product-items'>Crypto SaaS</li>
                         <li className='product-items'> CoinsPaid Explorer</li>
                     </ul>
+                </div>
+                <div className='col-lg-12 spacing-above'>
+                    <div className='data'> Data and information on this website are provided for informational purposes only, and are not intended for reference or other purposes. All financial, statistical and other relevant data regarding the clients/merchants, conducted transactions, etc., has been provided as aggregate from activities of all legal entities operating under the brand name of Coinspaid and Cryptoprocessing, including, but not limited to: (I) Dream Finance OÜ, Harju maakond, Tallinn, Kesklinna linnaosa, Kai tn 4, 10111, Estonia;(II) Dream Finance UAB, Gynejq St. 14-65, Vilnius, Lithuania and (III) Dream Finance S.A. DE C.V., 3A Calle Poniente Y, 71 Avenida Norte, Colonia Escalón, office No 3698, San Salvador, El Salvador.</div>
+               
                 </div>
             </div>
         </div>

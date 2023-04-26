@@ -1,40 +1,56 @@
 
-.social-icons{
-    padding-top: 10px;
-    .list-social-icon{
-        display: flex;
-        gap: 10px;
+.footer-bottom-spacing {
+    padding-bottom: 2rem;
 
-      
+    .social-icons {
+        padding-top: 10px;
+
+        .list-social-icon {
+            display: flex;
+            gap: 10px;
+
+
+        }
+
+        .dream-finance {
+            color: #525252;
+            font-size: 11px;
+            font-family: 'Sk-Modernist', Arial, sans-serif;
+            line-height: 1.55;
+
+        }
     }
-    .dream-finance{
+
+    .product-heading {
+        margin-bottom: 9px;
         color: #525252;
-        font-size: 11px;
-        font-family: 'Sk-Modernist',Arial,sans-serif;
-        line-height: 1.55;
-        
+        font-size: 16px;
+        padding-top: 10px;
+        font-weight: 600;
     }
-}
 
-.product-heading{
-    margin-bottom: 9px;
-    color: #525252;
-    font-size: 16px;
-    padding-top: 10px;
-    font-weight: 600;
-}
-
-    .products{
+    .products {
         padding-left: 0px;
-         list-style: none !important;
-         display: block;
-         .product-items {
+        list-style: none !important;
+        display: block;
+
+        .product-items {
             color: #ffffff;
             font-weight: 400;
-           
-            font-size: 14px;
-             line-height: 1.35;
-             margin-bottom: 8px;
-         }
-     }
 
+            font-size: 14px;
+            line-height: 1.35;
+            margin-bottom: 8px;
+        }
+    }
+.spacing-above{
+    padding-top: 6rem;
+    .data {
+
+        color: #525252;
+        font-size: 11px;
+        font-family: 'Sk-Modernist', Arial, sans-serif;
+        line-height: 1.55;
+    }
+}
+}

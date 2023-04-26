@@ -4,7 +4,26 @@
     margin: auto;
     padding: 0rem 4rem;
     max-width: 1450px;
+    @media ($breakpoint_992) {
+        // padding-left: 0rem !important;
+       padding-left: 2rem ;
+       padding-right: 2rem;
+    }
+    @media ($breakpoint_768) {
+        .custom-container {
 
+        padding: 0rem 2rem;}
+    }
+    @media ($breakpoint_576) {
+        .custom-container {
+
+        padding: 0rem 4rem;}
+    }
+    @media ($breakpoint_479) {
+        .custom-container {
+
+        padding: 0rem 4rem;}
+    }
 }
 
 .home-page {
@@ -26,20 +45,15 @@
     }
 }
 
-
-
 .section1 {
     justify-content: space-between;
-
-  
-
 
 
     h1 {
         font-size: 64px;
         text-align: left;
         color: white;
-
+        font-weight: 700;
     }
 
     .accept {
@@ -64,7 +78,7 @@
 
     @media ($breakpoint_1400) {
         .payment-gateway {
-            padding-left: 2rem;
+            // padding-left: 2rem;
 
             h1 {
                 font-size: 50px;
@@ -75,7 +89,7 @@
 
     @media ($breakpoint_992) {
         .payment-gateway {
-            padding-left: 2rem;
+            // padding-left: 2rem;
 
             h1 {
                 font-size: 43px;
@@ -88,7 +102,7 @@
 
     @media ($breakpoint_576) {
         .payment-gateway {
-            padding-left: 1.6rem;
+            padding-left: 1rem;
             padding-right: 1rem;
 
             h1 {
@@ -102,7 +116,7 @@
     @media ($breakpoint_479) {
         .payment-gateway {
             h1 {
-                font-size: 26px;
+                font-size: 24px;
                 font-weight: 700;
             }
 
@@ -262,14 +276,12 @@
         @media ($breakpoint_992) {
             padding-top: 0px !important;
 
-            .row-why {
-                padding: 0rem 2rem;
-            }
+           
         }
 
         @media ($breakpoint_992) {
             .row-why {
-                padding-left: 10px;
+                padding:0px;
             }
         }
     }
@@ -288,7 +300,7 @@
 
         @media ($breakpoint_992) {
             h1 {
-                font-size: 43px;
+                font-size: 37px;
                 padding-bottom: 0rem;
             }
 
@@ -297,7 +309,7 @@
         @media ($breakpoint_576) {
 
             h1 {
-                font-size: 40px;
+                font-size: 35px;
                 padding: 0px;
             }
         }
@@ -305,10 +317,9 @@
         @media ($breakpoint_479) {
 
             h1 {
-                font-size: 30px;
+                font-size: 24px;
                 padding: 0px;
             }
-
 
         }
 
@@ -317,7 +328,7 @@
 
     .margin-save {
         @media ($breakpoint_992) {
-            padding-left: 1rem;
+            padding-left: 0rem;
             padding-bottom: 0rem;
         }
 
@@ -329,15 +340,28 @@
         padding-bottom: 5rem;
 
         .save-up {
-            @media ($breakpoint_992) {
-                padding-bottom: 1rem;
-
-            }
 
             h3 {
                 color: white;
                 line-height: 1;
-                font-size: 20px;
+                font-size: 30px;
+            }
+
+            @media ($breakpoint_992) {
+                padding-bottom: 1rem;
+
+            }
+            @media ($breakpoint_576) {
+                h3 {
+
+                    font-size: 18px;
+                }
+            }
+            @media ($breakpoint_479) {
+                h3 {
+
+                    font-size: 16px;
+                }
             }
         }
     }
@@ -353,7 +377,9 @@
 
         padding: 1.5rem 0rem 1rem;
     }
-
+.table-row{
+    margin: 0px;
+}
     .table-scroll {
         overflow-x: scroll;
     }
@@ -370,6 +396,10 @@
             th {
                 width: 33%;
                 font-size: 18px;
+
+                @media ($breakpoint_576) {
+                    font-size: 14px;
+                }
             }
 
             th,
@@ -381,6 +411,9 @@
                 color: white;
                 text-align: left;
                 font-size: 18px;
+                @media ($breakpoint_576) {
+                    font-size: 14px;
+                }
             }
 
             td {
@@ -404,14 +437,12 @@
 
         }
 
-
-
-
     }
 
     @media ($breakpoint_992) {
         .row-accept {
-            padding-left: 10px;
+         
+            padding-top: 0rem !important;
         }
     }
 
@@ -434,7 +465,7 @@
 
         @media ($breakpoint_992) {
             h1 {
-                font-size: 43px;
+                font-size: 40px;
 
             }
 
@@ -444,14 +475,14 @@
         @media ($breakpoint_576) {
             h1 {
 
-                font-size: 40px;
+                font-size: 35px;
             }
         }
 
         @media ($breakpoint_479) {
             h1 {
 
-                font-size: 30px;
+                font-size: 24px;
             }
         }
 
@@ -464,7 +495,7 @@
         padding-bottom: 4rem;
 
         @media ($breakpoint_992) {
-            padding-left: 1rem;
+            padding-left: 0rem;
 
         }
 
@@ -503,6 +534,14 @@
                 }
             }
 
+            @media ($breakpoint_479) {
+
+
+                h3 {
+                    font-size: 22px;
+                    padding-top: 2rem !important;
+                }
+            }
 
         }
 
@@ -524,29 +563,37 @@
             }
 
             .Contact-btn {
-                margin-right: 30px;
+                // margin-right: 30px;
                 border-radius: 10px;
                 border: 0px;
                 background-color: #144bff;
                 color: white;
-                padding: 1rem 3.5rem !important;
-                font-size: 14px !important;
+                padding: 1rem 3.5rem ;
+                font-size: 14px ;
 
-                @media ($breakpoint_479) {
-                    width: 100%;
+                @media ($breakpoint_992) {
+                    padding: 1rem 3.5rem ;
                     margin-right: 0px;
                 }
-
-                @media only screen and (max-width:768px) {
-                    padding: 1rem 1.5rem !important;
+                @media($breakpoint_768) {
+                    padding: 1rem 3.5rem ;
+                    white-space: nowrap ;
                 }
+                @media ($breakpoint_576) {
+                    width: 100%;
+                    margin-right: 0px;
+                    white-space: nowrap ;
+                    padding: 1rem 2rem ;
+                }
+
+             
             }
         }
     }
 
     @media ($breakpoint_992) {
         .request {
-            padding-left: 1rem;
+            padding-left: 0rem;
             padding-bottom: 0px;
         }
     }
@@ -568,6 +615,7 @@
 
     .business-type {
         text-align: center;
+
         @media ($breakpoint_992) {
             text-align: center;
         }
@@ -590,22 +638,37 @@
         padding-left: 9rem;
         padding-top: 5rem;
 
-        @media ($breakpoint_992) {
-            padding-left: 2rem;
-        }
-
         h3 {
             font-size: 42px;
             color: white;
             font-weight: 700;
         }
 
+        @media ($breakpoint_992) {
+            padding-left: 1rem;
+            padding-top: 0rem;
+            h3 {
+            font-size: 34px;
+        }}
+
+
+
 
         @media ($breakpoint_576) {
             padding-left: 10px !important;
+            padding-top: 0rem;
 
             h3 {
                 font-size: 30px;
+            }
+        }
+
+        @media ($breakpoint_479) {
+
+            padding-left: 10px !important;
+
+            h3 {
+                font-size: 24px;
             }
         }
 
@@ -619,8 +682,13 @@
         margin-right: 1rem;
         opacity: 0.6;
 
+        @media ($breakpoint_576) {
+            font-size: 14px;
+            margin-right: 0rem;
+        }
         @media ($breakpoint_479) {
             font-size: 14px;
+            margin-right: 0rem;
         }
     }
 
@@ -652,10 +720,19 @@
     font-size: 42px;
     color: white;
     font-weight: 700;
+    @media ($breakpoint_992) {
+
+        font-size: 35px;
+    }
 
     @media ($breakpoint_576) {
 
         font-size: 30px;
+    }
+
+    @media ($breakpoint_479) {
+
+        font-size: 24px;
     }
 }
 
@@ -670,7 +747,7 @@
 
     @media ($breakpoint_992) {
         .row-leisure {
-            padding-left: 1rem;
+            padding-left: 0rem;
         }
     }
 
@@ -684,7 +761,7 @@
 @media ($breakpoint_992) {
     .commerce-section {
         flex-direction: column-reverse;
-        padding-left: 1rem;
+        // padding-left: 1rem;
     }
 }
 
@@ -703,9 +780,24 @@
         font-weight: 700;
     }
 
+    @media ($breakpoint_992) {
+        h3 {
+            font-size: 35px;
+
+        }
+
+    }
     @media ($breakpoint_576) {
         h3 {
             font-size: 30px;
+
+        }
+
+    }
+
+    @media ($breakpoint_479) {
+        h3 {
+            font-size: 24px;
 
         }
 
@@ -715,7 +807,7 @@
 .software {
     @media ($breakpoint_992) {
         flex-direction: column-reverse;
-        padding-left: 1rem;
+        padding-left: 0rem;
     }
 
     @media ($breakpoint_576) {
@@ -730,15 +822,15 @@
         font-size: 64px;
 
         @media ($breakpoint_992) {
-            font-size: 43px;
-        }
-
-        @media ($breakpoint_576) {
             font-size: 40px;
         }
 
+        @media ($breakpoint_576) {
+            font-size: 35px;
+        }
+
         @media ($breakpoint_479) {
-            font-size: 30px;
+            font-size: 24px;
             margin-bottom: 1.5rem;
         }
 
@@ -771,7 +863,7 @@
     }
 
     .Go-btn {
-        margin-right: 30px;
+        // margin-right: 30px;
         border-radius: 10px;
         border: 0px;
         background-color: #144bff;
@@ -781,12 +873,16 @@
 
         @media ($breakpoint_992) {
             white-space: nowrap;
-
+            margin-right: 0px;
+        }
+        @media ($breakpoint_768) {
+            white-space: nowrap;
+            margin-right: 0px;
         }
 
         @media ($breakpoint_576) {
             white-space: nowrap;
-            padding: 1rem 2rem;
+            padding: 1rem 4rem;
         }
 
         @media ($breakpoint_479) {
@@ -801,7 +897,7 @@
     color: white;
 
     @media ($breakpoint_992) {
-        padding-left: 1rem;
+        padding-left: 0rem;
         padding-bottom: 1rem;
 
         .proven-leader,
@@ -867,7 +963,7 @@
     padding: 0rem 0rem 5rem 0rem;
 
     @media ($breakpoint_992) {
-        padding-left: 1rem;
+        padding-left: 0rem;
     }
 
     @media ($breakpoint_576) {

@@ -5,15 +5,16 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { logo } from './config/Config';
 
 
 const Header = () => {
 
   return (<>
-  <div className='container header-container'>
+  <div className='header-container'>
    <Navbar className='navbar-section' expand="xl">
       <Container fluid>
-        <Navbar.Brand href="#">  <img src='https://static.tildacdn.com/tild3032-3265-4365-b335-353962363338/Ukraine-web.png' className='coinspaid-logo'/></Navbar.Brand>
+        <Navbar.Brand href="#">  <img src={logo} className='coinspaid-logo'/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav

@@ -11,3 +11,12 @@ $breakpoint_768: 'max-width:768px';
 $breakpoint_576: "max-width: 576px";
 $breakpoint_479: 'max-width:479px';
 $breakpoint_320: 'max-width:320px';
+
+
+
+@mixin contin{
+    max-width: 1250px;
+    width: 100%;
+    margin: auto;
+    padding: 10px 2rem;
+}

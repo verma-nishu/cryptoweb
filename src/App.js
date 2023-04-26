@@ -15,6 +15,7 @@ function App() {
   function Layout() {
     return (
       <>
+        {/* <Header/> */}
         <Outlet/>
      
       </>
@@ -30,7 +31,6 @@ function App() {
       <Routes>
         
         <Route element={<Layout />}>
-    
           <Route exact path='/' element={<Home />} />
           <Route path='/become-partner' element={<BecomePartner />} />
           <Route path='/contact-us' element={<ContactUs />} />

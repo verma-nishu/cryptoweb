@@ -1,10 +1,8 @@
-@import "~bootstrap/scss/bootstrap";
-
 .contact-section {
     background-color: #040517;
 
     .start-row {
-        padding: 4rem 8rem;
+        padding: 4rem 0rem;
     }
 
     .future-heading {
@@ -13,7 +11,7 @@
         padding-bottom: 1rem;
         color: white;
         font-size: 56px;
-        // padding: 0rem 2rem;
+
 
     }
 
@@ -22,39 +20,51 @@
         color: white;
         opacity: 0.5;
     }
-    .contact-btn{
+
+    .contact-btn {
         text-align: center;
         align-self: center;
-        .contact-us{
+
+        .contact-us {
             padding-top: 7.5rem;
 
-            .contact{
+            @media ($breakpoint_992) {
+                padding-top: 2.5rem;
+                text-align: left;
+            }
+
+            .contact {
                 padding: 1rem 3.7rem;
             }
         }
     }
-    .independent{
+
+    .independent {
         display: flex;
         align-items: center;
         padding-top: 6rem;
-     .guards10{
-        margin-right: 20px;
-     }
-        h3{
+
+        .guards10 {
+            margin-right: 20px;
+        }
+
+        h3 {
             margin-right: 20px;
             color: #ffffff;
-    font-size: 20px;
-    font-family: 'Sk-Modernist',Arial,sans-serif;
-    line-height: 1;
-    font-weight: 700;
-    background-position: center center;
-    border-color: transparent;
-    border-style: solid;
+            font-size: 20px;
+            font-family: 'Sk-Modernist', Arial, sans-serif;
+            line-height: 1;
+            font-weight: 700;
+            background-position: center center;
+            border-color: transparent;
+            border-style: solid;
         }
-        .guard{
+
+        .guard {
             width: 90px;
         }
-        .noroot{
+
+        .noroot {
             width: 50px;
         }
     }

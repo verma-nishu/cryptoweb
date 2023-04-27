@@ -1,24 +1,19 @@
 import React from 'react'
-import '../src/Assets/scss/Header.scss'
 import { Link } from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './Assets/scss/Header.scss'
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { logo } from './config/Config';
 
-// import title from './Config';
 import { title,Logo } from './Config';
 const Header = () => {
 
   return (<>
-  <div className='container header-container'>
+  <div className='header-container'>
    <Navbar className='navbar-section' expand="xl">
       <Container fluid>
-        <Navbar.Brand href="#"> 
-         <img src={Logo} alt={title+`Logo`} className='coinspaid-logo'/>
-         </Navbar.Brand>
+        <Navbar.Brand href="#">  <img src={logo} className='coinspaid-logo'/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -50,7 +45,7 @@ const Header = () => {
           </Nav>
         
             <Button  className='login-btn'><Link to="/login">LogIn</Link> </Button>
-            <Button  className='sign-up-btn'>Sign Up</Button>
+            <Button  className='sign-up-btn'><Link to="/login">Sign Up</Link></Button>
          
         </Navbar.Collapse>
       </Container>

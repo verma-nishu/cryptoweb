@@ -1,30 +1,88 @@
-@import "~bootstrap/scss/bootstrap";
-
 .custom-container {
     width: 100%;
     margin: auto;
-    padding: 0rem 4rem;
-    max-width: 1450px;
+    padding: 0rem 3rem;
+    max-width: 1250px;
+    // @media ($breakpoint_1200) {
+    //     width: 100%;
+    //     margin: auto;
+    //     padding: 0rem 3rem;
+    //     max-width: 1250px;
+
+    // }
     @media ($breakpoint_992) {
         // padding-left: 0rem !important;
-       padding-left: 2rem ;
-       padding-right: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
+
     @media ($breakpoint_768) {
         .custom-container {
 
-        padding: 0rem 2rem;}
+            padding: 0rem 2rem;
+        }
     }
+
     @media ($breakpoint_576) {
         .custom-container {
 
-        padding: 0rem 4rem;}
+            padding: 0rem 4rem;
+        }
     }
+
     @media ($breakpoint_479) {
         .custom-container {
 
-        padding: 0rem 4rem;}
+            padding: 0rem 4rem;
+        }
     }
+}
+
+
+.banner-sec {
+
+    @media ($breakpoint_992) {
+        padding: 0 2rem;
+    }
+    @media ($breakpoint_768) {
+        padding: 0 2rem;
+    }
+    @media ($breakpoint_576) {
+        padding: 0 10px;
+    }
+   
+    .section1 {
+
+        @media ($breakpoint_992) {
+            flex-direction: column-reverse;
+
+        }
+
+        .card-data-banner {
+            padding-left: calc(0% + 30px + 100px);
+
+            @media ($breakpoint_992) {
+                padding-left: 0 !important;
+            }
+
+        }
+
+        .card-img {
+            height: 100%;
+            background-image: url(https://static.tildacdn.com/tild6535-3039-4735-b831-323736373938/-2_0001_12100cd53.png);
+            background-position: left;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            @media ($breakpoint_992) {
+                height: 400px;
+                width: 100%;
+                background-position: center;
+                background-size: contain;
+            }
+        }
+    }
+
 }
 
 .home-page {
@@ -107,7 +165,7 @@
             padding-right: 1rem;
 
             h1 {
-                font-size: 40px;
+                font-size: 34px;
                 font-weight: 700;
             }
 
@@ -173,6 +231,10 @@
         padding: 1rem 1.5rem !important;
         font-size: 14px !important;
 
+        @media ($breakpoint_576) {
+            white-space: nowrap;
+        }
+
         @media ($breakpoint_479) {
             margin-right: 0px;
             width: 100%;
@@ -188,6 +250,10 @@
         color: white;
         padding: 1rem 1.5rem !important;
         font-size: 14px !important;
+
+        @media ($breakpoint_576) {
+            white-space: nowrap;
+        }
 
         @media ($breakpoint_479) {
             margin-top: 10px;
@@ -277,12 +343,12 @@
         @media ($breakpoint_992) {
             padding-top: 0px !important;
 
-           
+
         }
 
         @media ($breakpoint_992) {
             .row-why {
-                padding:0px;
+                padding: 0px;
             }
         }
     }
@@ -352,12 +418,14 @@
                 padding-bottom: 1rem;
 
             }
+
             @media ($breakpoint_576) {
                 h3 {
 
                     font-size: 18px;
                 }
             }
+
             @media ($breakpoint_479) {
                 h3 {
 
@@ -378,9 +446,11 @@
 
         padding: 1.5rem 0rem 1rem;
     }
-.table-row{
-    margin: 0px;
-}
+
+    .table-row {
+        margin: 0px;
+    }
+
     .table-scroll {
         overflow-x: scroll;
     }
@@ -412,6 +482,7 @@
                 color: white;
                 text-align: left;
                 font-size: 18px;
+
                 @media ($breakpoint_576) {
                     font-size: 14px;
                 }
@@ -442,7 +513,7 @@
 
     @media ($breakpoint_992) {
         .row-accept {
-         
+
             padding-top: 0rem !important;
         }
     }
@@ -569,25 +640,27 @@
                 border: 0px;
                 background-color: #144bff;
                 color: white;
-                padding: 1rem 3.5rem ;
-                font-size: 14px ;
+                padding: 1rem 3.5rem;
+                font-size: 14px;
 
                 @media ($breakpoint_992) {
-                    padding: 1rem 3.5rem ;
+                    padding: 1rem 3.5rem;
                     margin-right: 0px;
                 }
+
                 @media($breakpoint_768) {
-                    padding: 1rem 3.5rem ;
-                    white-space: nowrap ;
+                    padding: 1rem 3.5rem;
+                    white-space: nowrap;
                 }
+
                 @media ($breakpoint_576) {
                     width: 100%;
                     margin-right: 0px;
-                    white-space: nowrap ;
-                    padding: 1rem 2rem ;
+                    white-space: nowrap;
+                    padding: 1rem 2rem;
                 }
 
-             
+
             }
         }
     }
@@ -648,9 +721,11 @@
         @media ($breakpoint_992) {
             padding-left: 1rem;
             padding-top: 0rem;
+
             h3 {
-            font-size: 34px;
-        }}
+                font-size: 34px;
+            }
+        }
 
 
 
@@ -687,6 +762,7 @@
             font-size: 14px;
             margin-right: 0rem;
         }
+
         @media ($breakpoint_479) {
             font-size: 14px;
             margin-right: 0rem;
@@ -721,6 +797,7 @@
     font-size: 42px;
     color: white;
     font-weight: 700;
+
     @media ($breakpoint_992) {
 
         font-size: 35px;
@@ -788,6 +865,7 @@
         }
 
     }
+
     @media ($breakpoint_576) {
         h3 {
             font-size: 30px;
@@ -876,6 +954,7 @@
             white-space: nowrap;
             margin-right: 0px;
         }
+
         @media ($breakpoint_768) {
             white-space: nowrap;
             margin-right: 0px;

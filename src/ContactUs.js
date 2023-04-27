@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import { Button } from 'react-bootstrap'
-import './Assets/scss/ContactUs.scss'
+
 import guards from './Assets/images/guards.png'
 import noroot from './Assets/images/noroot.png'
 const ContactUs = () => {

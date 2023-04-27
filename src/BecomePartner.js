@@ -1,14 +1,15 @@
 import React from 'react'
 import { Button } from 'react-bootstrap';
-import './Assets/scss/BecomePartner.scss';
+
 import Logo_1 from './Assets/images/Logo_1.svg';
 import Logo_2 from './Assets/images/Logo_2.svg';
 import Logo_3 from './Assets/images/Logo_3.svg';
 import Header from './Header';
+import Footer from './Assets/Footer';
 const BecomePartner = () => {
     return (<>
-   
-        <div className='container-fluid become-section'>
+   <div className='section-overflow'>
+        <div className='become-section'>
         <Header/>
             <div className='row coinpaid-row'>
                 <div className='col-lg-12 become-coinspaid'><div> Become a CoinsPaid</div>
@@ -22,12 +23,12 @@ const BecomePartner = () => {
         </div>
 
 
-        <div className='custom-container brand-section'>
+        <div className='container-fluid brand-section'>
             <div class='brand-guide'><h1>Brand Guide</h1>
                 <div class='promotion'>You can use the media kit for the promotion of the CoinsPaid brand.</div></div>
             <div className='row cards-space'>
 
-                <div className='col-lg-4 col-sm-12 col-12'>
+                <div className='col-lg-4 col-sm-6 col-md-4  card-mobile'>
                     <div class="card" >
                         <img class="card-img-top" src={Logo_2} alt="Card image" />
                         <div class="card-body">
@@ -37,7 +38,7 @@ const BecomePartner = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-lg-4 col-sm-12 col-12'>
+                <div className='col-lg-4 col-sm-6 col-md-4 card-mobile'>
                     <div class="card" >
                         <img class="card-img-top" src={Logo_3} alt="Card image" />
                         <div class="card-body">
@@ -47,7 +48,7 @@ const BecomePartner = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-lg-4 col-sm-12 col-12'>
+                <div className='col-lg-4 col-sm-6 col-md-4 card-mobile'>
                     <div class="card" >
                         <img class="card-img-top" src={Logo_1} alt="Card image" />
                         <div class="card-body">
@@ -72,6 +73,9 @@ const BecomePartner = () => {
                 <div className='col-lg-12 '> <div ><Button className='let-btn'>LET'S GO!</Button></div></div>
             </div>
         </div>
+        <Footer/>
+        </div>
+      
     </>
     )
 }

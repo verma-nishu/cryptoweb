@@ -6,7 +6,8 @@ import Header from './Header.js'
 import A_logo from './Assets/images/A_logo.png'
 import BecomePartner from './BecomePartner.js';
 import Footer from './Assets/Footer.js';
-// import {Logo,title,webName} from './Config.js'
+import { webName } from './config/Config.js';
+
 const Home = () => {
     return (<>
 
@@ -16,29 +17,35 @@ const Home = () => {
       <Header/>
         {/* <BecomePartner/> */}
             
-            <div class='custom-container'>
+            <section className='banner-sec'>
                 <div className='row section1'>
                     <div className='col-lg-8 align-self-center pt-5 payment-gateway'>
-                        <h1>CryptoProcessing.com<br></br>
-                            your #1 crypto payment <br></br>gateway by CoinsPaid</h1>
-                        <div class='d-flex pt-4'>
-                            <div className='accept'>Accept payments in 20+ cryptocurrencies from end users around the world,</div>
-                            <div className='get-paid'>Get paid in USD, EUR, GBP and other fiat currencies directly to your bank account</div>
-                        </div>
-                        <div className='section1-btn'>
-                            <div><Button variant="primary" className='consultation'>Get Free Consultation</Button></div>
-                            <div><Button className='goto'>Go to CryptoProcessing.com</Button></div>
-                        </div>
-                        <div className='section1-bottom-logo'>
-                            <div class='award'><h4>SBCAWARDS</h4></div>
-                            <div class='A-logo'><img src={A_logo} className='goto'/></div>
-                        </div>
+                       <div className='card-data-banner'>
+                        <h1>{webName}<br></br>
+                                your #1 crypto payment <br></br>gateway by CoinsPaid</h1>
+                            <div class='d-flex pt-4'>
+                                <div className='accept'>Accept payments in 20+ cryptocurrencies from end users around the world,</div>
+                                <div className='get-paid'>Get paid in USD, EUR, GBP and other fiat currencies directly to your bank account</div>
+                            </div>
+                            <div className='section1-btn'>
+                                <div><Button variant="primary" className='consultation'>Get Free Consultation</Button></div>
+                                <div><Button className='goto'>Go to CryptoProcessing.com</Button></div>
+                            </div>
+                            <div className='section1-bottom-logo'>
+                                <div class='award'><h4>SBCAWARDS</h4></div>
+                                <div class='A-logo'><img src={A_logo} className='goto'/></div>
+                            </div>
+                       </div>
                     </div>
                     <div className='col-lg-4'>
-                        <img src='https://static.tildacdn.com/tild6535-3039-4735-b831-323736373938/-2_0001_12100cd53.png' alt='image' />
+                        <div className='card-img'>
+                            {/* <img src='https://static.tildacdn.com/tild6535-3039-4735-b831-323736373938/-2_0001_12100cd53.png' alt='image' /> */}
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
+
+
 
             <div class='should-integrate'>
                 <div className='custom-container pt-5 integrate-container'>

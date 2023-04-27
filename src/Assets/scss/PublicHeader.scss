@@ -1,4 +1,11 @@
-@import './Common.scss';
+
+.header-container{
+    max-width: 1250px;
+    width: 100%;
+    margin: auto;
+    padding: 15px 2rem;
+}
+
 
 
 .navbar-section {
@@ -18,8 +25,12 @@
     background-color: #1d1e33 !important;
     border: #1d1e33 !important;
     margin-right: 10px;
-    a {
+    a{
         text-decoration: none;
+        color: white;
+     
+    }
+    a:hover{
         color: white;
     }
 }
@@ -35,6 +46,14 @@
 .sign-up-btn {
     padding: 0.3rem 0.7rem !important;
     white-space: nowrap;
+    a{
+        text-decoration: none;
+        color: white;
+     
+    }
+    a:hover{
+        color: white;
+    }
 }
 
 .navbar-toggler:hover {
@@ -81,27 +100,22 @@
     padding: 1rem;
 }
 
-.link-items a {
-    text-decoration: none;
-    color: #9b9ba2;
-    font-size: 15px;
-    font-weight: 700;
-    opacity: 0.8;
-    // @media ($breakpoint_768) {
-    //     background-color: darkcyan;
-    // }
+.link-items{
+    a {
+        text-decoration: none;
+        color: #9b9ba2;
+        font-size: 15px;
+        font-weight: 700;
+        opacity: 0.8;
+
+        &:hover{
+            color: #ffffff !important;
+        }
+        
+    }
 }
 
-.link-items a:hover {
-    color: #ffffff !important;
-}
 
 .spacing-top {
     padding-top: 0.5rem;
 }
-
-// @media ($breakpoint_768) {
-//     .header-container {
-//         padding: 0rem 3rem;
-//     }
-// }

@@ -6,7 +6,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TelegramIcon from '@mui/icons-material/Telegram';
-import './scss/Footer.scss'
+
 const Footer = () => {
     return (
         <div className='custom-container footer-bottom-spacing'>

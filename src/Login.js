@@ -22,7 +22,7 @@ const Login = () => {
                         Login to your personal account to manage<br></br> the CoinsPaid personal wallet.
                     </div>
                     </div>
-                    <div className='media-personal'><Button className='business'>Business</Button>
+                    <div className='media-personal'> <Link to="/sign-in"><Button className='business'>Business</Button></Link>
                     <div className='your'>Login to your Cryptoprocessing.com merchant<br></br> account to manage your business operations.
 
 </div>

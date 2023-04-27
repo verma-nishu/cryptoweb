@@ -6,6 +6,7 @@ import Header from './Header.js'
 import A_logo from './Assets/images/A_logo.png'
 import BecomePartner from './BecomePartner.js';
 import Footer from './Assets/Footer.js';
+// import {Logo,title,webName} from './Config.js'
 const Home = () => {
     return (<>
 

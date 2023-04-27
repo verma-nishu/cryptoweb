@@ -39,6 +39,12 @@ const SignIn = () => {
                 </div>
 
             </div></div>
+            <div className='footer-sign property'>
+            <div>We use cookies to enhance your experience and make the wallet safe. Check our Cookie Policy for more details.
+            </div>
+            <div className='accept-all'><DoneIcon />Accept all</div>
+
+        </div>
     </>
     )
 }

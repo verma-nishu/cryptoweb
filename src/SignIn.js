@@ -14,7 +14,7 @@ const SignIn = () => {
             <div className='accept-all'><DoneIcon />Accept all</div>
 
         </div>
-        <div class='image-styles'><img src={coinspaid_beta} class='logo-name'></img></div>
+        <div className='image-styles'><img src={coinspaid_beta} className='logo-name'></img></div>
         <div></div>
 
         <div className='container'>

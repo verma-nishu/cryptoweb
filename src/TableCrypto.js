@@ -7,7 +7,7 @@ const TableCrypto = () => {
             <thead>
         <tr>
          
-          <th class='table-head1'>COMPANY ADVANTAGES</th>
+          <th className='table-head1'>COMPANY ADVANTAGES</th>
           <th>CRYPTO</th>
           <th>FIAT</th>
         </tr>
@@ -15,23 +15,23 @@ const TableCrypto = () => {
             <tbody>
               <tr>
               
-                <td class='table-head1'>Refund</td>
+                <td className='table-head1'>Refund</td>
                 <td>No</td>
                 <td>Yes</td>
               </tr>
               <tr>
               
-                <td class='table-head1'>Rolling reserve</td>
+                <td className='table-head1'>Rolling reserve</td>
                 <td>No</td>
                 <td>Yes</td>
               </tr>
               <tr>
-              <td class='table-head1'>Fees </td>
+              <td className='table-head1'>Fees </td>
                 <td >0.8%</td>
                 <td> 5%</td>
               </tr>
               <tr>
-              <td class='table-head1'>Transaction speed </td>
+              <td className='table-head1'>Transaction speed </td>
                 <td >10min </td>
                 <td> 60min</td>
               </tr>

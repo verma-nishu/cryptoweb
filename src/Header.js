@@ -51,7 +51,7 @@ const Header = () => {
       </Container>
     </Navbar></div></>
     // <div className='custom-container header-top'>
-    //   <div class='logo'> 
+    //   <div className='logo'> 
     //     <img src='https://static.tildacdn.com/tild3032-3265-4365-b335-353962363338/Ukraine-web.png' className='coinspaid-logo'/>
     //   </div>
     

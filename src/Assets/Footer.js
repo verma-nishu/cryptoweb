@@ -13,7 +13,7 @@ const Footer = () => {
             <div className='row'>
                 <div className='col-lg-3 col-sm-6'>
                     <img src={footer_image} />
-                    <div class='social-icons'>
+                    <div className='social-icons'>
                         <ul className='list-unstyled list-social-icon'>
                             <li><FacebookIcon /></li>
                             <li> <TwitterIcon /></li>
@@ -22,7 +22,7 @@ const Footer = () => {
                             <li><LinkedInIcon /></li>
                             <li> <TelegramIcon /></li>
                         </ul>
-                        <div class='dream-finance'>© 2023 CoinsPaid<br></br>
+                        <div className='dream-finance'>© 2023 CoinsPaid<br></br>
                             Dream Finance OU (Reg No. 14783543)<br></br>
                             Address: Harju maakond, Tallinn, Kesklinna <br></br>linnaosa, Kai tn 4, 10111, Estonia<br></br>
                             VAT: EE102212301<br></br>

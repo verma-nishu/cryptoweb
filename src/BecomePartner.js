@@ -25,37 +25,37 @@ const BecomePartner = () => {
 
 </div>
                 <div className='custom-container brand-section'>
-                    <div class='brand-guide'><h1>Brand Guide</h1>
-                        <div class='promotion'>You can use the media kit for the promotion of the CoinsPaid brand.</div></div>
+                    <div className='brand-guide'><h1>Brand Guide</h1>
+                        <div className='promotion'>You can use the media kit for the promotion of the CoinsPaid brand.</div></div>
                     <div className='row cards-space'>
 
                         <div className='col-lg-4 col-sm-6 col-md-4  card-mobile'>
-                            <div class="card" >
-                                <img class="card-img-top" src={Logo_2} alt="Card image" />
-                                <div class="card-body">
-                                    <h4 class="card-title">Logos</h4>
-                                    <p class="card-text">Please click the button below to familiarize with our recommendations and download logos.</p>
-                                    <a href="#" class="btn btn-primary get">Get now</a>
+                            <div className="card" >
+                                <img className="card-img-top" src={Logo_2} alt="Card image" />
+                                <div className="card-body">
+                                    <h4 className="card-title">Logos</h4>
+                                    <p className="card-text">Please click the button below to familiarize with our recommendations and download logos.</p>
+                                    <a href="#" className="btn btn-primary get">Get now</a>
                                 </div>
                             </div>
                         </div>
                         <div className='col-lg-4 col-sm-6 col-md-4 card-mobile'>
-                            <div class="card" >
-                                <img class="card-img-top" src={Logo_3} alt="Card image" />
-                                <div class="card-body">
-                                    <h4 class="card-title">Colors</h4>
-                                    <p class="card-text">If you are looking for the information about our brand coolers please click the button below.</p>
-                                    <a href="#" class="btn btn-primary explore">Explore</a>
+                            <div className="card" >
+                                <img className="card-img-top" src={Logo_3} alt="Card image" />
+                                <div className="card-body">
+                                    <h4 className="card-title">Colors</h4>
+                                    <p className="card-text">If you are looking for the information about our brand coolers please click the button below.</p>
+                                    <a href="#" className="btn btn-primary explore">Explore</a>
                                 </div>
                             </div>
                         </div>
                         <div className='col-lg-4 col-sm-6 col-md-4 card-mobile'>
-                            <div class="card" >
-                                <img class="card-img-top" src={Logo_1} alt="Card image" />
-                                <div class="card-body">
-                                    <h4 class="card-title">Typography</h4>
-                                    <p class="card-text">Get to know about our brand fronts which are used in marketing materials.</p>
-                                    <a href="#" class="btn btn-primary read">Read</a>
+                            <div className="card" >
+                                <img className="card-img-top" src={Logo_1} alt="Card image" />
+                                <div className="card-body">
+                                    <h4 className="card-title">Typography</h4>
+                                    <p className="card-text">Get to know about our brand fronts which are used in marketing materials.</p>
+                                    <a href="#" className="btn btn-primary read">Read</a>
                                 </div>
                             </div>
                         </div>

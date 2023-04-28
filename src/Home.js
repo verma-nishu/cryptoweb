@@ -22,7 +22,7 @@ const Home = () => {
                         <div className='card-data-banner'>
                             <h1>{webName}<br></br>
                                 your #1 crypto payment <br></br>gateway by CoinsPaid</h1>
-                            <div class='d-flex pt-4'>
+                            <div className='d-flex pt-4'>
                                 <div className='accept'>Accept payments in 20+ cryptocurrencies from end users around the world,</div>
                                 <div className='get-paid'>Get paid in USD, EUR, GBP and other fiat currencies directly to your bank account</div>
                             </div>
@@ -31,8 +31,8 @@ const Home = () => {
                                 <div><Button className='goto'>Go to CryptoProcessing.com</Button></div>
                             </div>
                             <div className='section1-bottom-logo'>
-                                <div class='award'><h4>SBCAWARDS</h4></div>
-                                <div class='A-logo'><img src={A_logo} className='goto' /></div>
+                                <div className='award'><h4>SBCAWARDS</h4></div>
+                                <div className='A-logo'><img src={A_logo} className='goto' /></div>
                             </div>
                         </div>
                     </div>
@@ -46,7 +46,7 @@ const Home = () => {
 
 
 
-            <div class='should-integrate'>
+            <div className='should-integrate'>
                 <div className='custom-container pt-5 integrate-container'>
                     <div className='row pt-4 row-why'>
                         <div className='col-lg-12 integrate'>
@@ -89,11 +89,11 @@ const Home = () => {
                 </div>
             </div>
 
-            <div class='section3'>
-                <div class='custom-container section3'>
-                    <div class='row w-100 table-row'>
-                        <div class='col-lg-12 table-scroll'>
-                            <div class='table-section'><TableCrypto /></div>
+            <div className='section3'>
+                <div className='custom-container section3'>
+                    <div className='row w-100 table-row'>
+                        <div className='col-lg-12 table-scroll'>
+                            <div className='table-section'><TableCrypto /></div>
 
                         </div>
                     </div>
@@ -122,7 +122,7 @@ const Home = () => {
                             <br></br>
                             Multi-currency support, a built-in exchange of 20+ cryptocurrencies and 40+ national currencies, multi-account management, and an extensive reporting system are only some features
                         </div>
-                        <Button>Know More<span class='arrow'><ArrowForwardIcon /></span></Button>
+                        <Button>Know More<span className='arrow'><ArrowForwardIcon /></span></Button>
                     </div>
                 </div>
                 <div className='row commerce-section'>
@@ -131,7 +131,7 @@ const Home = () => {
                         <div className='multi-currency'>
                             Our crypto payment processing is a robust solution for online stores to accept Bitcoin and 20+ other digital assets. We provide a simple and secure invoicing gateway in cryptocurrency with no exchange rate risk for both parties: merchants and buyers.
                         </div>
-                        <Button>Know More<span class='arrow'><ArrowForwardIcon /></span></Button>
+                        <Button>Know More<span className='arrow'><ArrowForwardIcon /></span></Button>
                     </div>
                     <div className='col-lg-6 business-type'>
                         <img src='https://static.tildacdn.com/tild3561-6338-4363-b133-323532623161/ecommerce.png' />
@@ -139,8 +139,8 @@ const Home = () => {
 
                 </div>
                 <div className='d-flex leave-your request'>
-                    <div class='free-marketing'><h3>Leave your request today and get a free marketing advice from our team</h3></div>
-                    <div class='contact-sales'><Button variant="primary" className='Contact-btn'>Contact Sales</Button></div>
+                    <div className='free-marketing'><h3>Leave your request today and get a free marketing advice from our team</h3></div>
+                    <div className='contact-sales'><Button variant="primary" className='Contact-btn'>Contact Sales</Button></div>
                 </div>
             </div>
 
@@ -158,7 +158,7 @@ const Home = () => {
                         <h3 className='leisure'>Leisure activities</h3>
                         <div className='multi-currency'>Our crypto payment gateway is a borderless method with 99.99% uptime and no exchange rate risks: a user pays in cryptocurrency, and a merchant instantly receives an equal amount in the fiat currency of their choice. The provider also supports recurring payments.
                         </div>
-                        <Button>Know More<span class='arrow'><ArrowForwardIcon /></span></Button>
+                        <Button>Know More<span className='arrow'><ArrowForwardIcon /></span></Button>
                     </div>
                 </div>
                 <div className='row software'>
@@ -167,7 +167,7 @@ const Home = () => {
                         <div className='multi-currency'>
                             Our service provides a range of cryptocurrency payment methods to your customers that fit every business model: invoices, payment links, recurring payments and channels. Integrate the best payment gateway in your platform and increase your conversion rate.
                         </div>
-                        <Button>Know More<span class='arrow'><ArrowForwardIcon /></span></Button>
+                        <Button>Know More<span className='arrow'><ArrowForwardIcon /></span></Button>
                     </div>
                     <div className='col-lg-6 business-type'>
                         <img src='https://static.tildacdn.com/tild6266-3133-4463-b464-323431316638/SaaS.png' />
@@ -175,15 +175,15 @@ const Home = () => {
 
                 </div>
                 <div className='d-flex leave-your'>
-                    <div class='free-marketing'><h3>Get to know how we've already helped to save over $500M for our customers.</h3></div>
-                    <div class='contact-sales'><Button variant="primary" className='Contact-btn'>Talk with us</Button></div>
+                    <div className='free-marketing'><h3>Get to know how we've already helped to save over $500M for our customers.</h3></div>
+                    <div className='contact-sales'><Button variant="primary" className='Contact-btn'>Talk with us</Button></div>
                 </div>
                 <div className='d-flex leave-your'>
-                    <div class='open-for-growth'>    <h1>Open for growth?
+                    <div className='open-for-growth'>    <h1>Open for growth?
                         <br>
                         </br><span>Work with leaders.</span>
                     </h1></div>
-                    <div class='let-go'><Button variant="primary" className='Go-btn'>LET'S GO</Button></div>
+                    <div className='let-go'><Button variant="primary" className='Go-btn'>LET'S GO</Button></div>
                 </div>
             </div>
             <div className='custom-container'>

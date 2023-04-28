@@ -8,7 +8,7 @@ import { Button } from 'react-bootstrap';
 const BusinessLogin = () => {
     return (<>
      
-        <div class='image-styles-crypto'><img src={crypto_by_coinspaid} class='logo-name'></img></div>
+        <div className='image-styles-crypto'><img src={crypto_by_coinspaid} className='logo-name'></img></div>
         <div></div>
 
         <div className='container'>

@@ -25,7 +25,7 @@ const Wallet = () => {
                         <div className='card-data-banner'>
                             <h1>Multi-currency online crypto wallet for everyone
                             </h1>
-                            <div class='d-flex pt-4'>
+                            <div className='d-flex pt-4'>
                                 <div className='accept'>15 cryptocurrencies and 5 blockchains supported</div>
                                 <div className='get-paid'>Built-in crypto exchange to 16 fiat currencies</div>
                             </div>
@@ -126,7 +126,7 @@ const Wallet = () => {
                     </div>
 
                 </div>
-                <div class='contact-us-btn'><Button variant="primary" className='Contact-us'>Contact Sales</Button></div>
+                <div className='contact-us-btn'><Button variant="primary" className='Contact-us'>Contact Sales</Button></div>
             </div>
 
             <Footer />

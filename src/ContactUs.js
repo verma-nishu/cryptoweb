@@ -24,7 +24,7 @@ const ContactUs = () => {
                 <div className='col-lg-6 contact-btn'> <div className='contact-us'><Button className='contact'>Contact Us</Button></div></div>
                 <div className='independent'>
                     <div><h3>Independent security <br></br>audits</h3></div>
-                    <div class='guards10'><img src={guards} className='guard'/></div>
+                    <div className='guards10'><img src={guards} className='guard'/></div>
                     <div><img src={noroot} className='noroot'/></div>
                 </div>
             </div>

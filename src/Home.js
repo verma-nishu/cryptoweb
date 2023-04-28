@@ -7,6 +7,10 @@ import A_logo from './Assets/images/A_logo.png'
 import Footer from './Assets/Footer.js';
 import { webName } from './config/Config.js';
 import ModeCommentIcon from '@mui/icons-material/ModeComment';
+import Forex from './Assets/images/Forex.png';
+import ecommerce from './Assets/images/ecommerce.png';
+import tickets from './Assets/images/tickets.png';
+import SaaS from './Assets/images/SaaS.png'
 const Home = () => {
     return (<>
 
@@ -114,7 +118,7 @@ const Home = () => {
                 </div>
                 <div className='row'>
                     <div className='col-lg-6 business-type'>
-                        <img src='https://static.tildacdn.com/tild3763-3161-4330-b435-393764636365/Forex.png' />
+                        <img src={Forex} />
                     </div>
                     <div className='col-lg-6 forex'>
                         <h3>Forex and Binary</h3>
@@ -134,7 +138,7 @@ const Home = () => {
                         <Button>Know More<span className='arrow'><ArrowForwardIcon /></span></Button>
                     </div>
                     <div className='col-lg-6 business-type'>
-                        <img src='https://static.tildacdn.com/tild3561-6338-4363-b133-323532623161/ecommerce.png' />
+                        <img src={ecommerce}/>
                     </div>
 
                 </div>
@@ -152,7 +156,7 @@ const Home = () => {
 
                 <div className='row row-leisure'>
                     <div className='col-lg-6 business-type'>
-                        <img src='https://static.tildacdn.com/tild6162-3034-4833-a466-613361383639/tickets.png' />
+                        <img src={tickets} />
                     </div>
                     <div className='col-lg-6'>
                         <h3 className='leisure'>Leisure activities</h3>
@@ -170,7 +174,7 @@ const Home = () => {
                         <Button>Know More<span className='arrow'><ArrowForwardIcon /></span></Button>
                     </div>
                     <div className='col-lg-6 business-type'>
-                        <img src='https://static.tildacdn.com/tild6266-3133-4463-b464-323431316638/SaaS.png' />
+                        <img src={SaaS} />
                     </div>
 
                 </div>

@@ -25,7 +25,7 @@ const Header = () => {
           <Link to="/">$CPD</Link>
         </li>
         <li className='link-items'>
-           <Link to="/blogs">Wallet</Link>
+           <Link to="/wallet">Wallet</Link>
          </li>
          <li className='link-items solution'>
           <Link to="/contact">Business solutions</Link>

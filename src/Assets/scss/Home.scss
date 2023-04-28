@@ -3,15 +3,9 @@
     margin: auto;
     padding: 0rem 3rem;
     max-width: 1250px;
-    // @media ($breakpoint_1200) {
-    //     width: 100%;
-    //     margin: auto;
-    //     padding: 0rem 3rem;
-    //     max-width: 1250px;
 
-    // }
     @media ($breakpoint_992) {
-        // padding-left: 0rem !important;
+
         padding-left: 2rem;
         padding-right: 2rem;
     }
@@ -44,14 +38,20 @@
     @media ($breakpoint_992) {
         padding: 0 2rem;
     }
+
     @media ($breakpoint_768) {
         padding: 0 2rem;
     }
+
     @media ($breakpoint_576) {
         padding: 0 10px;
     }
-   
+
     .section1 {
+        @media ($breakpoint_1200) {
+            display: flex;
+
+        }
 
         @media ($breakpoint_992) {
             flex-direction: column-reverse;
@@ -60,6 +60,10 @@
 
         .card-data-banner {
             padding-left: calc(0% + 30px + 100px);
+
+            @media ($breakpoint_1200) {
+                padding-left: 3rem;
+            }
 
             @media ($breakpoint_992) {
                 padding-left: 0 !important;
@@ -86,8 +90,11 @@
 }
 
 .home-page {
-    background: #040517;
+    background: $background-color;
     overflow-x: auto;
+    .message-icon{
+        color: $white-color;
+    }
 }
 
 @media ($breakpoint_992) {
@@ -111,13 +118,13 @@
     h1 {
         font-size: 64px;
         text-align: left;
-        color: white;
+        color: $white-color;
         font-weight: 700;
     }
 
     .accept {
-        color: white;
-        border-top: 1px solid #161627;
+        color: $white-color;
+        border-top: 1px solid $navyblue-color;
         padding: 1.7rem 0rem;
 
         margin-right: 20px;
@@ -126,10 +133,10 @@
     }
 
     .get-paid {
-        color: white;
+        color: $white-color;
         padding: 1.7rem 0rem;
         margin-left: 20px;
-        border-top: 1px solid #161627;
+        border-top: 1px solid $navyblue-color;
 
         font-size: 17px;
         opacity: 0.8;
@@ -226,8 +233,8 @@
         margin-right: 30px;
         border-radius: 10px;
         border: 0px;
-        background-color: #144bff;
-        color: white;
+        background-color: $blue-color;
+        color: $white-color;
         padding: 1rem 1.5rem !important;
         font-size: 14px !important;
 
@@ -246,8 +253,8 @@
 
         border-radius: 10px;
         border: 0px;
-        background-color: #161627;
-        color: white;
+        background-color: $navyblue-color;
+        color: $white-color;
         padding: 1rem 1.5rem !important;
         font-size: 14px !important;
 
@@ -284,7 +291,7 @@
         }
 
         h4 {
-            color: white;
+            color: $white-color;
             font-size: 1.5rem;
             font-weight: 700;
         }
@@ -305,7 +312,7 @@
     font-size: 60px;
     padding: 1rem 6rem 0rem 6rem;
     font-weight: 800;
-    color: white;
+    color: $white-color;
     text-align: left;
 }
 
@@ -336,7 +343,7 @@
 
 /* .........Section2...... */
 .should-integrate {
-    background-color: #161627;
+    background-color: $navyblue-color;
 
     .integrate-container {
 
@@ -356,7 +363,7 @@
     .integrate {
         h1 {
             line-height: 0.9;
-            color: white;
+            color: $white-color;
             font-size: 64px;
             padding: 0px 0px 5rem 0px;
 
@@ -409,7 +416,7 @@
         .save-up {
 
             h3 {
-                color: white;
+                color: $white-color;
                 line-height: 1;
                 font-size: 30px;
             }
@@ -439,7 +446,7 @@
 
 /*........Section3.......*/
 .section3 {
-    background-color: #161627;
+    background-color: $navyblue-color;
     padding: 1.5rem 0rem 4rem;
 
     @media ($breakpoint_992) {
@@ -477,9 +484,9 @@
             tr,
             td {
 
-                border: 1px solid #161627;
+                border: 1px solid $navyblue-color;
                 padding: 1rem 6rem;
-                color: white;
+                color: $white-color;
                 text-align: left;
                 font-size: 18px;
 
@@ -498,16 +505,12 @@
 
 /*.....Section4............*/
 .acceptance-section4 {
-    background-color: #040517;
+    background-color: $background-color;
     padding-top: 3rem;
 
-    @media only screen and (max-width:479px) {
-
-        .acceptance-section4 {
+    @media ($breakpoint_479) {
 
             padding-top: 1rem !important;
-
-        }
 
     }
 
@@ -527,7 +530,7 @@
     .acceptance {
         h1 {
             line-height: 0.9;
-            color: white;
+            color: $white-color;
             font-size: 64px;
 
             span {
@@ -581,7 +584,7 @@
             width: 62%;
 
             h3 {
-                color: white;
+                color: $white-color;
                 font-size: 42px;
                 font-weight: 600;
                 padding-top: 4rem;
@@ -638,8 +641,8 @@
                 // margin-right: 30px;
                 border-radius: 10px;
                 border: 0px;
-                background-color: #144bff;
-                color: white;
+                background-color: $blue-color;
+                color: $white-color;
                 padding: 1rem 3.5rem;
                 font-size: 14px;
 
@@ -714,7 +717,7 @@
 
         h3 {
             font-size: 42px;
-            color: white;
+            color: $white-color;
             font-weight: 700;
         }
 
@@ -752,7 +755,7 @@
 
 
     .multi-currency {
-        color: white;
+        color: $white-color;
         line-height: 28px;
         font-size: 18px;
         margin-right: 1rem;
@@ -773,8 +776,8 @@
         padding: 1rem 3rem;
         font-size: 14px !important;
         margin-top: 1rem;
-        background-color: #161627;
-        border: #161627;
+        background-color: $navyblue-color;
+        border: $navyblue-color;
         font-weight: 600;
 
         @media ($breakpoint_576) {
@@ -795,7 +798,7 @@
 
 .leisure {
     font-size: 42px;
-    color: white;
+    color: $white-color;
     font-weight: 700;
 
     @media ($breakpoint_992) {
@@ -854,7 +857,7 @@
 
     h3 {
         font-size: 42px;
-        color: white;
+        color: $white-color;
         font-weight: 700;
     }
 
@@ -897,7 +900,7 @@
 .open-for-growth {
     h1 {
         line-height: 0.9;
-        color: white;
+        color: $white-color;
         font-size: 64px;
 
         @media ($breakpoint_992) {
@@ -945,8 +948,8 @@
         // margin-right: 30px;
         border-radius: 10px;
         border: 0px;
-        background-color: #144bff;
-        color: white;
+        background-color: $blue-color;
+        color: $white-color;
         padding: 1rem 4rem;
         font-size: 14px;
 
@@ -974,7 +977,7 @@
 
 .counts {
     padding: 0rem 0rem 4rem 0rem;
-    color: white;
+    color: $white-color;
 
     @media ($breakpoint_992) {
         padding-left: 0rem;
@@ -1054,17 +1057,18 @@
     .bitcoin {
         font-size: 14px;
         font-weight: 400;
-        color: white;
+        color: $white-color;
         opacity: 0.6;
         padding-bottom: 10px;
     }
 
     .Cryptoprocessing-btn {
-        background-color: #575757;
-        border: #575757;
+        background-color: $gray;
+        border: $gray;
 
         padding: 0.9rem 1.7rem;
         font-size: 14px;
         font-weight: 600;
     }
+   
 }

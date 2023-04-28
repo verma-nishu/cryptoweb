@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
     background-color: rgb(20, 75, 255);
-    color: white;
+    color: $white-color;
     padding: 0.5rem 1rem;
 
     @media ($breakpoint_768) {
@@ -33,7 +33,7 @@
     display: flex;
     justify-content: space-between;
     background-color: rgb(20, 75, 255);
-    color: white;
+    color: $white-color;
     padding: 0.5rem 1rem;
     display: none;
 
@@ -76,6 +76,22 @@
     }
 
 }
+.image-styles-crypto {
+
+    padding: 4rem 2rem;
+
+    @media ($breakpoint_576) {
+        padding: 2rem 0rem;
+        text-align: center;
+
+    }
+
+    .logo-name {
+        width: 200px;
+      
+    }
+
+}
 
 .heading-signin {
     text-align: center;
@@ -97,6 +113,8 @@
     .button-sign {
         width: 100%;
         padding: 0.7rem 2rem;
+        border: rgba(20, 75, 255, 0.32);
+    background: rgba(20, 75, 255, 0.32);
     }
 
     .Account {

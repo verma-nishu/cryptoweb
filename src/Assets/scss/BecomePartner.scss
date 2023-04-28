@@ -1,6 +1,6 @@
 .section-overflow {
     overflow-x: hidden;
-    background-color:#040517;
+    background-color: $background-color;
 
     @media ($breakpoint_576) {
         overflow-x: hidden;
@@ -9,24 +9,36 @@
 
 
     .become-section {
-        background-color: #040517;
+        background-color: $background-color;
         padding-bottom: 5rem;
 
         .coinpaid-row {
-            padding: 5rem 9rem;
+            padding: 5rem 0rem;
+
+            @media ($breakpoint_1200) {
+
+                padding-left: 0rem;
+                padding-right: 0rem;
+
+            }
+
             @media ($breakpoint_992) {
 
-                padding: 0rem 2rem;
+                padding: 0rem;
 
             }
 
             @media ($breakpoint_768) {
 
-                padding: 0rem 2rem;
+                padding: 0rem ;
 
             }
-
             @media ($breakpoint_576) {
+
+                padding: 0rem 1rem;
+
+            }
+            @media ($breakpoint_479) {
 
                 padding: 0rem 1rem;
 
@@ -37,18 +49,20 @@
                 font-size: 55px;
                 line-height: 55px;
                 padding-bottom: 1rem;
-                color: white;
+                color: $white-color;
+
                 @media ($breakpoint_992) {
                     font-size: 54px;
-                    padding-top: 3rem;
+                    padding-top: 5rem;
 
                     text-align: left;
 
                 }
+
                 @media ($breakpoint_768) {
                     font-size: 50px;
                     padding-top: 3rem;
-
+                  
                     text-align: center;
 
                 }
@@ -58,6 +72,8 @@
                     line-height: 45px;
                     text-align: center;
                     padding-top: 3rem;
+                    padding-left: 0rem;
+                    padding-right: 0rem;
 
                 }
 
@@ -66,13 +82,14 @@
                     line-height: 30px;
                     text-align: center;
                     padding-top: 3rem;
-
+                    padding-left: 0rem;
+                    padding-right: 0rem;
                 }
 
             }
 
             .network {
-                color: white;
+                color: $white-color;
                 opacity: 0.54;
 
                 @media ($breakpoint_768) {
@@ -85,12 +102,15 @@
 
                 .become-partner {
                     padding-top: 2.5rem;
+
                     @media ($breakpoint_992) {
                         text-align: left;
                     }
+
                     @media ($breakpoint_768) {
                         text-align: center;
                     }
+
                     .become-btn {
                         padding: 1rem 3.7rem;
                     }
@@ -102,7 +122,7 @@
     }
 
     .brand-section {
-        background-color: #040517;
+        background-color: $background-color;
         padding-bottom: 5rem;
 
         @media ($breakpoint_768) {
@@ -111,20 +131,30 @@
         }
 
         .brand-guide {
-            padding: 0rem 8rem 5rem 8rem;
-            color: white;
+        
+            color: $white-color;
 
-         
-            @media ($breakpoint_992) {
-                padding: 0rem 1rem 5rem 1rem;
+            @media ($breakpoint_1200) {
+                padding: 0rem 0rem 5rem 0rem;
                 text-align: left;
             }
+
+            @media ($breakpoint_992) {
+                padding: 0rem 0rem 5rem 0rem;
+                text-align: left;
+            }
+
             @media ($breakpoint_768) {
+                padding: 0rem 0rem 5rem 0rem;
+                text-align: center;
+            }
+
+            @media ($breakpoint_576) {
                 padding: 0rem 1rem 5rem 1rem;
                 text-align: center;
             }
             @media ($breakpoint_576) {
-                padding: 0rem 1rem 5rem 1rem;
+                padding: 0rem 0rem 5rem 0rem;
                 text-align: center;
             }
 
@@ -152,7 +182,8 @@
         }
 
         .cards-space {
-            padding: 2rem 8rem 0rem 8rem;
+            padding: 2rem 0rem 0rem 0rem;
+
             @media ($breakpoint_992) {
 
                 padding: 2rem;
@@ -181,7 +212,7 @@
             width: 350px;
             border: none;
 
-         
+
             @media ($breakpoint_1400) {
                 margin: 0 auto;
                 width: 100%;
@@ -208,10 +239,10 @@
                 }
 
                 .card-text {
-                    // min-height: 70px !important;
+
                     font-size: 14px;
                     white-space: nowrap;
-                    /* width: 50px; */
+
                     overflow: hidden;
                     text-overflow: ellipsis;
 
@@ -239,20 +270,26 @@
 
 
 
-
         }
     }
 
 
     .join-section {
-        background-color: #040517;
+        background-color: $background-color;
         padding-bottom: 5rem;
 
         .community-row {
-            padding: 5rem 8rem;
+            padding: 5rem 0rem;
+
+            @media ($breakpoint_1200) {
+                padding-left: 0rem;
+                padding-right: 0rem;
+            }
+
             @media ($breakpoint_992) {
 
-                padding: 0rem 2rem;
+              padding-left: 0rem;
+              padding-right: 0rem;
                 text-align: left;
             }
 
@@ -271,9 +308,9 @@
 
 
             .join-our {
-                font-size: 72px;
-                line-height: 72px;
-                color: white;
+                font-size: 55px;
+                line-height: 55px;
+                color: $white-color;
                 font-weight: 700;
                 font-family: 'SK-Modernist', Arial, sans-serif;
 
@@ -300,7 +337,7 @@
 
             .appreciate {
                 font-size: 18px;
-                color: #919394;
+                color: $lightgray-color;
                 padding-bottom: 2rem;
             }
 

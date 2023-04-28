@@ -2,7 +2,7 @@
 
 
 .login-page {
-    background: #040517;
+    background: $background-color;
     overflow-x: hidden;
 
     .sign-up-section {
@@ -34,14 +34,14 @@
 
             h1 {
                 font-size: 24px;
-                color: white;
+                color: $white-color;
                 font-weight: 400;
                 padding: 3rem 0rem;
             }
         }
 
         .ecosystem {
-            color: white;
+            color: $white-color;
             font-family: 'Sk-Modernist', Arial, sans-serif;
             font-size: 74px;
             font-weight: 700;
@@ -94,8 +94,8 @@
                 margin-right: 30px;
                 border-radius: 10px;
                 border: 0px;
-                background-color: #144bff;
-                color: white;
+                background-color: $blue-color;
+                color: $white-color;
                 padding: 1rem 5.5rem ;
                 font-size: 16px !important;
 
@@ -117,7 +117,7 @@
 
             .personal-account {
                 font-size: 12px;
-                color: white;
+                color: $white-color;
                 opacity: 0.5;
                 text-align: left;
                 padding-top: 10px;
@@ -129,7 +129,7 @@
 
             .your {
                 font-size: 12px;
-                color: white;
+                color: $white-color;
                 opacity: 0.5;
                 text-align: left;
                 padding-top: 10px;
@@ -143,8 +143,8 @@
 
                 border-radius: 10px;
                 border: 0px;
-                background-color: #575757;
-                color: white;
+                background-color: $gray;
+                color: $white-color;
                 padding: 1rem 5.5rem ;
                 font-size: 16px !important;
 
@@ -160,7 +160,7 @@
             }
 
             .business:hover {
-                background-color: #144bff;
+                background-color: $blue-color;
             }
         }
 

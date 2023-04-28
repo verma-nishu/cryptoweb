@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import { Button } from 'react-bootstrap'
-
+import Footer from './Assets/Footer'
 import guards from './Assets/images/guards.png'
 import noroot from './Assets/images/noroot.png'
 const ContactUs = () => {
@@ -29,6 +29,7 @@ const ContactUs = () => {
                 </div>
             </div>
             </div>
+            <Footer/>
         </div>
     )
 }

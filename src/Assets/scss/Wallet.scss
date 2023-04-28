@@ -1,0 +1,109 @@
+.wallet-section {
+    .Buttons-wallet-sign {
+        background-color: $blue-color;
+    }
+    .App-store {
+        padding-top: 4rem;
+
+        .google {
+            width: 18%;
+            margin-right: 20px;
+        }
+    }
+
+    .About-section {
+        display: flex;
+        margin-bottom: 6rem;
+
+        .purchase {
+            padding-top: 4rem;
+            color: $darkgray-color;
+            font-size: 18px;
+            font-family: 'Sk-Modernist', Arial, sans-serif;
+            font-weight: 700;
+            width: 45%;
+        }
+
+        .CDP-section {
+            padding-top: 4rem;
+        }
+
+        .About-btn {
+            color: #ffffff;
+            font-size: 16px;
+            font-family: 'Arial', Arial, sans-serif;
+            line-height: 1.55;
+            font-weight: 600;
+            border-radius: 8px;
+        }
+    }
+
+    .free-state {
+        padding-top: 2rem;
+
+    }
+
+    .contact-us-btn {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 6rem;
+
+        @media ($breakpoint_576) {
+            padding-top: 0rem;
+            text-align: left;
+        }
+
+        @media ($breakpoint_479) {
+            width: 100%;
+            padding-top: 0px;
+            text-align: left;
+
+        }
+
+        .Contact-us {
+            // margin-right: 30px;
+            border-radius: 10px;
+            border: 0px;
+            background-color: $blue-color;
+            color: $white-color;
+            padding: 1rem 3.5rem;
+            font-size: 14px;
+
+            @media ($breakpoint_992) {
+                padding: 1rem 3.5rem;
+                margin-right: 0px;
+            }
+
+            @media($breakpoint_768) {
+                padding: 1rem 3.5rem;
+                white-space: nowrap;
+            }
+
+            @media ($breakpoint_576) {
+                width: 100%;
+                margin-right: 0px;
+                white-space: nowrap;
+                padding: 1rem 2rem;
+            }
+
+
+        }
+    }
+
+    .bank {
+        padding-bottom: 0rem;
+
+        @media ($breakpoint_992) {
+            flex-direction: column-reverse;
+            padding-left: 0rem;
+        }
+
+        @media ($breakpoint_576) {
+            padding-left: unset;
+        }
+
+        .card-support {
+            padding-top: 6rem;
+        }
+    }
+}

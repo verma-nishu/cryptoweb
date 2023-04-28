@@ -13,7 +13,7 @@
         }
 
         .dream-finance {
-            color: #525252;
+            color: $darkgray-color;
             font-size: 11px;
             font-family: 'Sk-Modernist', Arial, sans-serif;
             line-height: 1.55;
@@ -23,7 +23,7 @@
 
     .product-heading {
         margin-bottom: 9px;
-        color: #525252;
+        color: $darkgray-color;
         font-size: 16px;
         padding-top: 10px;
         font-weight: 600;
@@ -35,7 +35,7 @@
         display: block;
 
         .product-items {
-            color: #ffffff;
+            color:$white-color;
             font-weight: 400;
 
             font-size: 14px;
@@ -47,7 +47,7 @@
     padding-top: 6rem;
     .data {
 
-        color: #525252;
+        color: $darkgray-color;
         font-size: 11px;
         font-family: 'Sk-Modernist', Arial, sans-serif;
         line-height: 1.55;

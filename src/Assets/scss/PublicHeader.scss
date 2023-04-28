@@ -4,12 +4,18 @@
     width: 100%;
     margin: auto;
     padding: 15px 2rem;
+    @media ($breakpoint_992){
+        padding: 15px 1rem;
+    }
+    @media ($breakpoint_576){
+        padding: 15px 0rem;
+    }
 }
 
 
 
 .navbar-section {
-    background: #040517;
+    background: $background-color;
 
   
 }
@@ -22,16 +28,16 @@
 
 .login-btn {
     padding: 0.5rem 2rem;
-    background-color: #1d1e33 !important;
-    border: #1d1e33 !important;
+    background-color: $light-navy !important;
+    border: $light-navy !important;
     margin-right: 10px;
     a{
         text-decoration: none;
-        color: white;
+        color: $white-color;
      
     }
     a:hover{
-        color: white;
+        color: $white-color;
     }
 }
 
@@ -48,25 +54,25 @@
     white-space: nowrap;
     a{
         text-decoration: none;
-        color: white;
+        color: $white-color;
      
     }
     a:hover{
-        color: white;
+        color: $white-color;
     }
 }
 
 .navbar-toggler:hover {
     text-decoration: none;
-    background: white;
+    background: $white-color;
 }
 
 .navbar-toggler:active {
-    background: white;
+    background: $white-color;
 }
 
 .navbar-section .collapsed {
-    background-color: white;
+    background-color: $white-color;
 }
 
 .header-top {
@@ -103,13 +109,13 @@
 .link-items{
     a {
         text-decoration: none;
-        color: #9b9ba2;
+        color: $white-smoke;
         font-size: 15px;
         font-weight: 700;
         opacity: 0.8;
 
         &:hover{
-            color: #ffffff !important;
+            color: $white-color !important;
         }
         
     }

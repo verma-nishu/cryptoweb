@@ -4,24 +4,23 @@ import TableCrypto from './TableCrypto.js';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import Header from './Header.js'
 import A_logo from './Assets/images/A_logo.png'
-import BecomePartner from './BecomePartner.js';
 import Footer from './Assets/Footer.js';
 import { webName } from './config/Config.js';
-
+import ModeCommentIcon from '@mui/icons-material/ModeComment';
 const Home = () => {
     return (<>
 
-       
+
 
         <div className='home-page'>
-      <Header/>
-        {/* <BecomePartner/> */}
-            
+            <Header />
+
+
             <section className='banner-sec'>
                 <div className='row section1'>
                     <div className='col-lg-8 align-self-center pt-5 payment-gateway'>
-                       <div className='card-data-banner'>
-                        <h1>{webName}<br></br>
+                        <div className='card-data-banner'>
+                            <h1>{webName}<br></br>
                                 your #1 crypto payment <br></br>gateway by CoinsPaid</h1>
                             <div class='d-flex pt-4'>
                                 <div className='accept'>Accept payments in 20+ cryptocurrencies from end users around the world,</div>
@@ -33,9 +32,9 @@ const Home = () => {
                             </div>
                             <div className='section1-bottom-logo'>
                                 <div class='award'><h4>SBCAWARDS</h4></div>
-                                <div class='A-logo'><img src={A_logo} className='goto'/></div>
+                                <div class='A-logo'><img src={A_logo} className='goto' /></div>
                             </div>
-                       </div>
+                        </div>
                     </div>
                     <div className='col-lg-4'>
                         <div className='card-img'>
@@ -143,13 +142,13 @@ const Home = () => {
                     <div class='free-marketing'><h3>Leave your request today and get a free marketing advice from our team</h3></div>
                     <div class='contact-sales'><Button variant="primary" className='Contact-btn'>Contact Sales</Button></div>
                 </div>
-            </div> 
+            </div>
 
 
             {/* Section5 */}
 
 
-             <div className='custom-container acceptance-section4 activities'>
+            <div className='custom-container acceptance-section4 activities'>
 
                 <div className='row row-leisure'>
                     <div className='col-lg-6 business-type'>
@@ -199,8 +198,9 @@ const Home = () => {
                     <div className='col-lg-12 bitcoin'>Find more details about Bitcoin Payment Gateway Processor and coins payment on our website</div>
                     <div className='col-lg-12'><Button className='Cryptoprocessing-btn'>Cryptoprocessing.com</Button></div>
                 </div>
-            </div> 
-            <Footer/>
+            </div>
+            <Footer />
+            {/* <div className='message-icon'><ModeCommentIcon/></div> */}
         </div>
     </>
     )

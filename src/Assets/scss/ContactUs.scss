@@ -1,24 +1,43 @@
 .contact-section {
-    background-color: #040517;
+    background-color: $background-color;
+    overflow-x: hidden;
 
     .start-row {
         padding: 4rem 0rem;
+        @media ($breakpoint_479){
+            padding: 2rem 0rem;
+        }
     }
 
     .future-heading {
         font-weight: 700;
         line-height: 55px;
         padding-bottom: 1rem;
-        color: white;
+        color: $white-color;
         font-size: 56px;
+        @media ($breakpoint_576) {
+            line-height: 44px;
+            font-size: 44px;
+        }
+        @media ($breakpoint_576) {
+            line-height: 40px;
+            font-size: 40px;
+        }
+        @media ($breakpoint_479) {
+            line-height: 30px;
+            font-size: 30px;
+        }
 
 
     }
 
     .details {
         font-size: 16px;
-        color: white;
+        color: $white-color;
         opacity: 0.5;
+        @media ($breakpoint_479) {
+            font-size: 14px;
+        }
     }
 
     .contact-btn {
@@ -50,7 +69,7 @@
 
         h3 {
             margin-right: 20px;
-            color: #ffffff;
+            color: $white-color;
             font-size: 20px;
             font-family: 'Sk-Modernist', Arial, sans-serif;
             line-height: 1;

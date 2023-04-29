@@ -35,8 +35,14 @@
 
 .banner-sec {
 
-    @media ($breakpoint_992) {
-        padding: 0 2rem;
+    // @media ($breakpoint_1400) {
+    //     max-width: 1250px;
+    //     width: 100%;
+    //     margin: auto;
+    //     padding: 15px 2rem;
+    // }
+    @media ($breakpoint_1200) {
+        padding: 0rem;
     }
 
     @media ($breakpoint_768) {
@@ -60,6 +66,9 @@
 
         .card-data-banner {
             padding-left: calc(0% + 30px + 100px);
+            // @media ($breakpoint_1400) {
+            //     padding-left: 0rem;
+            // }
 
             @media ($breakpoint_1200) {
                 padding-left: 3rem;

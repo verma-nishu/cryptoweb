@@ -28,7 +28,7 @@ const Header = () => {
            <Link to="/wallet">Wallet</Link>
          </li>
          <li className='link-items solution'>
-          <Link to="/contact">Business solutions</Link>
+          <Link to="/business-solution">Business solutions</Link>
         </li>
        <li className='link-items'>
           <Link to="/contact">|</Link>

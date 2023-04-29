@@ -1,0 +1,109 @@
+.background {
+    background-image: linear-gradient(to right, #1F45FC, #00BFFF);
+
+    .token-container {
+        padding: 0rem 1rem;
+
+        .navbar-section {
+            padding: 0.5rem 0rem;
+            background-image: linear-gradient(to right, #1F45FC, #00BFFF);
+
+            .navbar-display {
+                display: flex;
+                justify-content: space-between;
+
+                .header-block {
+                    display: flex;
+                }
+
+                .list-links {
+                    padding: 0.3rem;
+                    @media ($breakpoint_992) {
+                        display: none;
+                    }
+
+                    .main-nav {
+                        display: flex;
+                        list-style: none;
+                        gap: 25px;
+                        padding-left: 0px;
+                        margin-bottom: 0px;
+
+                        @media ($breakpoint_1200) {
+                            gap: 0px;
+                        }
+
+                        li {
+                            padding: 0.5rem 1rem;
+
+                            a {
+                                color: $white-color;
+                                font-size: 16px;
+                                font-weight: 700;
+                            }
+                        }
+
+                        .nav-links-sec {
+
+                            text-decoration: none;
+                        }
+                    }
+
+
+                }
+
+                .buy-cpd {
+                    padding-top: 5px;
+
+                    button {
+                        white-space: nowrap;
+                        padding-left: 30px;
+                        padding-right: 30px;
+                        background: $deep-skyblue;
+                        font-size: 14px;
+                        height: 40px;
+                        font-weight: 700;
+                        border: 2px solid $white-color;
+                    }
+
+                    @media ($breakpoint_992) {
+                        display: none;
+                    }
+                }
+                .menu-icon {
+                
+                    display: none;
+
+                    @media ($breakpoint_992){
+                        display: contents;
+                        color: white;
+                        padding-top: 10px;
+                    }
+                    .MuiSvgIcon-root{
+                        @media ($breakpoint_992){
+                        height: 2em;}
+                    }
+                }
+           
+            }
+         
+        }
+        .show-navbar{
+            list-style: none !important;
+          
+            text-align: center;
+            .button-spacing{
+                padding: 2rem 0rem;
+            }
+            .link-spacing{
+                padding-top: 10px;
+            }
+            a{
+                color: $white-color;
+                font-size: 16px;
+                font-weight: 700;
+                text-decoration: none;
+            }
+         }
+    }
+}

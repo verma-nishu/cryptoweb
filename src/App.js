@@ -9,6 +9,7 @@ import ContactUs from './ContactUs';
 import Login from './Login';
 import SignIn from './SignIn';
 import Wallet from './Wallet';
+import NavbarCDPtoken from './NavbarCDPtoken';
 function App() {
 
 
@@ -38,6 +39,7 @@ function App() {
           <Route path='/sign-in' element={<SignIn />} />
           <Route path='/business' element={<BusinessLogin/>} />
           <Route path='/wallet' element={<Wallet/>} />
+          <Route path='/business-solution' element={<NavbarCDPtoken/>} />
         </Route>
       </Routes>
     </Router>

@@ -2,7 +2,7 @@ import { useState, React } from 'react'
 import token_logo from './Assets/images/token_logo.svg'
 import { Button } from 'react-bootstrap';
 import MenuIcon from '@mui/icons-material/Menu';
-
+import BusinessSolution from './BusinessSolution.js'
 const NavbarCDPtoken = () => {
     const [toggle, setToggle] = useState(false);
     return (
@@ -46,7 +46,7 @@ const NavbarCDPtoken = () => {
                   
                     {toggle ?
                         (<>
-                            <div>
+                            <div className='hide-navbar'>
                                 <ul class="show-navbar">
                                     <li className='link-spacing'>
                                         <a href="#" class="nav-links-sec">Buy & Farm</a>
@@ -70,7 +70,7 @@ const NavbarCDPtoken = () => {
                                     </Button></div></ul>
                             </div></>) : ("")}
                 </div>
-             
+             <BusinessSolution/>
             </div>
            
         </>

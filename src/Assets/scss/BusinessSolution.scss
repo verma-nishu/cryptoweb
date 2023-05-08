@@ -1,7 +1,21 @@
 
 .buy-cpd{
 
-
+.column-height{
+    height: 800px;
+}
+.strategy{
+   
+        img{
+            width: 150px;
+        }
+        padding-right: 15px;
+    
+}
+.partners{
+    white-space: nowrap;
+    padding-bottom: 2rem;
+}
 h1{
     padding-top: 11rem;
     color: $white-color;
@@ -46,27 +60,27 @@ h3{
 }
 .rabbit-img{
     position: relative;
-    top: 32%;
-    left: 30%;
+    top: 35%;
+    left: 29%;
     width: 125px;
 }
 .cpd{
     position: relative;
-    bottom: 12%;
+    bottom: 15%;
     right: 33%;
     width: 770px;
     height: 656px;
 }
 .red-symbol{
     position: relative;
-    top: 60%;
+    top:77%;
     right: 25%;
     width: 100px;
 }
 .blue-unicorn{
-    right: 40%;
+    right: 41%;
     position: relative;
-    bottom: 44%;
+    bottom: 57%;
     width: 160px;
 }
 }}
